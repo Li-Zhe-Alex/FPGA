@@ -1,0 +1,1428 @@
+// Copyright (C) 1991-2004 Altera Corporation
+// Any  megafunction  design,  and related netlist (encrypted  or  decrypted),
+// support information,  device programming or simulation file,  and any other
+// associated  documentation or information  provided by  Altera  or a partner
+// under  Altera's   Megafunction   Partnership   Program  may  be  used  only
+// to program  PLD  devices (but not masked  PLD  devices) from  Altera.   Any
+// other  use  of such  megafunction  design,  netlist,  support  information,
+// device programming or simulation file,  or any other  related documentation
+// or information  is prohibited  for  any  other purpose,  including, but not
+// limited to  modification,  reverse engineering,  de-compiling, or use  with
+// any other  silicon devices,  unless such use is  explicitly  licensed under
+// a separate agreement with  Altera  or a megafunction partner.  Title to the
+// intellectual property,  including patents,  copyrights,  trademarks,  trade
+// secrets,  or maskworks,  embodied in any such megafunction design, netlist,
+// support  information,  device programming or simulation file,  or any other
+// related documentation or information provided by  Altera  or a megafunction
+// partner, remains with Altera, the megafunction partner, or their respective
+// licensors. No other licenses, including any licenses needed under any third
+// party's intellectual property, are provided herein.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II"
+// VERSION "Version 4.1 Build 181 06/29/2004 SJ Full Version"
+
+// DATE "10/21/2004 10:39:51"
+
+module 	enableGen (
+	resetValue_in,
+	clk,
+	nReset,
+	clkEnable_out);
+input 	[25:0] resetValue_in;
+input 	clk;
+input 	nReset;
+output 	clkEnable_out;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella3~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella18~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella17~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella16~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella4~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella23~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella7~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella21~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella22~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella9~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella6~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella19~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella2~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella11~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella14~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella13~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella1~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella24~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella8~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella12~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella26~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella27~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella28~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella29~COUT ;
+wire \clk~combout ;
+wire \resetValue_in[21]~combout ;
+wire \resetValue_in[22]~combout ;
+wire \nReset~combout ;
+wire \resetValue_in[17]~combout ;
+wire \resetValue_in[18]~combout ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[0] ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella0~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[1] ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[1]~COUT0 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[1]~COUT1 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[2] ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[2]~COUT0 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[2]~COUT1 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[3] ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[3]~COUT0 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[3]~COUT1 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[4] ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[4]~COUT0 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[4]~COUT1 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[5] ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella5~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[6] ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[6]~COUT0 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[6]~COUT1 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[7] ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[7]~COUT0 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[7]~COUT1 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[8] ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[8]~COUT0 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[8]~COUT1 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[9] ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[9]~COUT0 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[9]~COUT1 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[10] ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella10~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[11] ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[11]~COUT0 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[11]~COUT1 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[12] ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[12]~COUT0 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[12]~COUT1 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[13] ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[13]~COUT0 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[13]~COUT1 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[14] ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[14]~COUT0 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[14]~COUT1 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[15] ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella15~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[16] ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[16]~COUT0 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[16]~COUT1 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[17] ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[17]~COUT0 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[17]~COUT1 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[18] ;
+wire \reduce_nor~384 ;
+wire \resetValue_in[16]~combout ;
+wire \resetValue_in[4]~combout ;
+wire \reduce_nor~385 ;
+wire \resetValue_in[23]~combout ;
+wire \resetValue_in[7]~combout ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[18]~COUT0 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[18]~COUT1 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[19] ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[19]~COUT0 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[19]~COUT1 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[20] ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella20~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[21]~COUT0 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[21]~COUT1 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[22] ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[22]~COUT0 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[22]~COUT1 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[23] ;
+wire \reduce_nor~386 ;
+wire \resetValue_in[3]~combout ;
+wire \resetValue_in[15]~combout ;
+wire \reduce_nor~383 ;
+wire \reduce_nor~387 ;
+wire \resetValue_in[14]~combout ;
+wire \resetValue_in[11]~combout ;
+wire \reduce_nor~394 ;
+wire \resetValue_in[8]~combout ;
+wire \resetValue_in[24]~combout ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[23]~COUT0 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[23]~COUT1 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[24] ;
+wire \reduce_nor~396 ;
+wire \resetValue_in[1]~combout ;
+wire \resetValue_in[13]~combout ;
+wire \reduce_nor~395 ;
+wire \resetValue_in[20]~combout ;
+wire \resetValue_in[2]~combout ;
+wire \reduce_nor~393 ;
+wire \reduce_nor~397 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[24]~COUT0 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[24]~COUT1 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[25] ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella25~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[26] ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[26]~COUT0 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[26]~COUT1 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[27] ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[27]~COUT0 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[27]~COUT1 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[28] ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[28]~COUT0 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[28]~COUT1 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[29] ;
+wire \reduce_nor~399 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[29]~COUT0 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[29]~COUT1 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[30] ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella30~COUT ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[31] ;
+wire \resetValue_in[0]~combout ;
+wire \resetValue_in[12]~combout ;
+wire \reduce_nor~398 ;
+wire \reduce_nor~400 ;
+wire \reduce_nor~401 ;
+wire \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[21] ;
+wire \reduce_nor~388 ;
+wire \resetValue_in[6]~combout ;
+wire \resetValue_in[25]~combout ;
+wire \reduce_nor~390 ;
+wire \resetValue_in[5]~combout ;
+wire \resetValue_in[19]~combout ;
+wire \reduce_nor~391 ;
+wire \resetValue_in[10]~combout ;
+wire \resetValue_in[9]~combout ;
+wire \reduce_nor~389 ;
+wire \reduce_nor~392 ;
+wire \clkEnable_out~reg0 ;
+wire [31:0] \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q ;
+
+wire \__ALT_INV__nReset~combout ;
+
+wire gnd;
+wire vcc;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+
+assign \__ALT_INV__nReset~combout  = ~ \nReset~combout ;
+
+cyclone_io \clk~I (
+	.combout(\clk~combout ),
+	.padio(clk));
+defparam \clk~I .operation_mode = "input";
+defparam \clk~I .input_register_mode = "none";
+defparam \clk~I .output_register_mode = "none";
+defparam \clk~I .oe_register_mode = "none";
+defparam \clk~I .input_async_reset = "none";
+defparam \clk~I .output_async_reset = "none";
+defparam \clk~I .oe_async_reset = "none";
+defparam \clk~I .input_sync_reset = "none";
+defparam \clk~I .output_sync_reset = "none";
+defparam \clk~I .oe_sync_reset = "none";
+defparam \clk~I .input_power_up = "low";
+defparam \clk~I .output_power_up = "low";
+defparam \clk~I .oe_power_up = "low";
+
+cyclone_io \resetValue_in[21]~I (
+	.combout(\resetValue_in[21]~combout ),
+	.padio(resetValue_in[21]));
+defparam \resetValue_in[21]~I .operation_mode = "input";
+defparam \resetValue_in[21]~I .input_register_mode = "none";
+defparam \resetValue_in[21]~I .output_register_mode = "none";
+defparam \resetValue_in[21]~I .oe_register_mode = "none";
+defparam \resetValue_in[21]~I .input_async_reset = "none";
+defparam \resetValue_in[21]~I .output_async_reset = "none";
+defparam \resetValue_in[21]~I .oe_async_reset = "none";
+defparam \resetValue_in[21]~I .input_sync_reset = "none";
+defparam \resetValue_in[21]~I .output_sync_reset = "none";
+defparam \resetValue_in[21]~I .oe_sync_reset = "none";
+defparam \resetValue_in[21]~I .input_power_up = "low";
+defparam \resetValue_in[21]~I .output_power_up = "low";
+defparam \resetValue_in[21]~I .oe_power_up = "low";
+
+cyclone_io \resetValue_in[22]~I (
+	.combout(\resetValue_in[22]~combout ),
+	.padio(resetValue_in[22]));
+defparam \resetValue_in[22]~I .operation_mode = "input";
+defparam \resetValue_in[22]~I .input_register_mode = "none";
+defparam \resetValue_in[22]~I .output_register_mode = "none";
+defparam \resetValue_in[22]~I .oe_register_mode = "none";
+defparam \resetValue_in[22]~I .input_async_reset = "none";
+defparam \resetValue_in[22]~I .output_async_reset = "none";
+defparam \resetValue_in[22]~I .oe_async_reset = "none";
+defparam \resetValue_in[22]~I .input_sync_reset = "none";
+defparam \resetValue_in[22]~I .output_sync_reset = "none";
+defparam \resetValue_in[22]~I .oe_sync_reset = "none";
+defparam \resetValue_in[22]~I .input_power_up = "low";
+defparam \resetValue_in[22]~I .output_power_up = "low";
+defparam \resetValue_in[22]~I .oe_power_up = "low";
+
+cyclone_io \nReset~I (
+	.combout(\nReset~combout ),
+	.padio(nReset));
+defparam \nReset~I .operation_mode = "input";
+defparam \nReset~I .input_register_mode = "none";
+defparam \nReset~I .output_register_mode = "none";
+defparam \nReset~I .oe_register_mode = "none";
+defparam \nReset~I .input_async_reset = "none";
+defparam \nReset~I .output_async_reset = "none";
+defparam \nReset~I .oe_async_reset = "none";
+defparam \nReset~I .input_sync_reset = "none";
+defparam \nReset~I .output_sync_reset = "none";
+defparam \nReset~I .oe_sync_reset = "none";
+defparam \nReset~I .input_power_up = "low";
+defparam \nReset~I .output_power_up = "low";
+defparam \nReset~I .oe_power_up = "low";
+
+cyclone_io \resetValue_in[17]~I (
+	.combout(\resetValue_in[17]~combout ),
+	.padio(resetValue_in[17]));
+defparam \resetValue_in[17]~I .operation_mode = "input";
+defparam \resetValue_in[17]~I .input_register_mode = "none";
+defparam \resetValue_in[17]~I .output_register_mode = "none";
+defparam \resetValue_in[17]~I .oe_register_mode = "none";
+defparam \resetValue_in[17]~I .input_async_reset = "none";
+defparam \resetValue_in[17]~I .output_async_reset = "none";
+defparam \resetValue_in[17]~I .oe_async_reset = "none";
+defparam \resetValue_in[17]~I .input_sync_reset = "none";
+defparam \resetValue_in[17]~I .output_sync_reset = "none";
+defparam \resetValue_in[17]~I .oe_sync_reset = "none";
+defparam \resetValue_in[17]~I .input_power_up = "low";
+defparam \resetValue_in[17]~I .output_power_up = "low";
+defparam \resetValue_in[17]~I .oe_power_up = "low";
+
+cyclone_io \resetValue_in[18]~I (
+	.combout(\resetValue_in[18]~combout ),
+	.padio(resetValue_in[18]));
+defparam \resetValue_in[18]~I .operation_mode = "input";
+defparam \resetValue_in[18]~I .input_register_mode = "none";
+defparam \resetValue_in[18]~I .output_register_mode = "none";
+defparam \resetValue_in[18]~I .oe_register_mode = "none";
+defparam \resetValue_in[18]~I .input_async_reset = "none";
+defparam \resetValue_in[18]~I .output_async_reset = "none";
+defparam \resetValue_in[18]~I .oe_async_reset = "none";
+defparam \resetValue_in[18]~I .input_sync_reset = "none";
+defparam \resetValue_in[18]~I .output_sync_reset = "none";
+defparam \resetValue_in[18]~I .oe_sync_reset = "none";
+defparam \resetValue_in[18]~I .input_power_up = "low";
+defparam \resetValue_in[18]~I .output_power_up = "low";
+defparam \resetValue_in[18]~I .oe_power_up = "low";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella0 (
+	.clk(\clk~combout ),
+	.datab(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[0] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[0] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella0~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella0 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella0 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella0 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella0 .sum_lutc_input = "datac";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella0 .lut_mask = "33CC";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella0 .output_mode = "reg_only";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella1 (
+	.clk(\clk~combout ),
+	.datab(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[1] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella0~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[1] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella1~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella1 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella1 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella1 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella1 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella1 .lut_mask = "3C3F";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella1 .output_mode = "reg_only";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella2 (
+	.clk(\clk~combout ),
+	.dataa(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[2] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella1~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[2] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella2~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella2 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella2 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella2 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella2 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella2 .lut_mask = "A50A";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella2 .output_mode = "reg_only";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella3 (
+	.clk(\clk~combout ),
+	.dataa(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[3] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella2~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[3] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella3~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella3 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella3 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella3 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella3 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella3 .lut_mask = "5A5F";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella3 .output_mode = "reg_only";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella4 (
+	.clk(\clk~combout ),
+	.datab(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[4] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella3~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[4] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella4~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella4 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella4 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella4 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella4 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella4 .lut_mask = "C30C";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella4 .output_mode = "reg_only";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella5 (
+	.clk(\clk~combout ),
+	.dataa(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[5] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella4~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[5] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella5~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella5 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella5 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella5 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella5 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella5 .lut_mask = "5A5F";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella5 .output_mode = "reg_only";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella6 (
+	.clk(\clk~combout ),
+	.datab(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[6] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella5~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[6] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella6~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella6 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella6 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella6 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella6 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella6 .lut_mask = "C30C";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella6 .output_mode = "reg_only";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella7 (
+	.clk(\clk~combout ),
+	.dataa(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[7] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella6~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[7] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella7~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella7 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella7 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella7 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella7 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella7 .lut_mask = "5A5F";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella7 .output_mode = "reg_only";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella8 (
+	.clk(\clk~combout ),
+	.dataa(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[8] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella7~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[8] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella8~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella8 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella8 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella8 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella8 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella8 .lut_mask = "A50A";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella8 .output_mode = "reg_only";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella9 (
+	.clk(\clk~combout ),
+	.datab(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[9] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella8~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[9] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella9~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella9 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella9 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella9 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella9 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella9 .lut_mask = "3C3F";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella9 .output_mode = "reg_only";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella10 (
+	.clk(\clk~combout ),
+	.datab(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[10] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella9~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[10] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella10~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella10 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella10 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella10 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella10 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella10 .lut_mask = "C30C";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella10 .output_mode = "reg_only";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella11 (
+	.clk(\clk~combout ),
+	.datab(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[11] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella10~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[11] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella11~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella11 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella11 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella11 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella11 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella11 .lut_mask = "3C3F";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella11 .output_mode = "reg_only";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella12 (
+	.clk(\clk~combout ),
+	.dataa(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[12] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella11~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[12] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella12~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella12 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella12 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella12 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella12 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella12 .lut_mask = "A50A";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella12 .output_mode = "reg_only";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella13 (
+	.clk(\clk~combout ),
+	.dataa(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[13] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella12~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[13] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella13~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella13 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella13 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella13 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella13 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella13 .lut_mask = "5A5F";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella13 .output_mode = "reg_only";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella14 (
+	.clk(\clk~combout ),
+	.datab(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[14] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella13~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[14] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella14~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella14 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella14 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella14 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella14 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella14 .lut_mask = "C30C";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella14 .output_mode = "reg_only";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella15 (
+	.clk(\clk~combout ),
+	.dataa(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[15] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella14~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[15] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella15~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella15 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella15 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella15 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella15 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella15 .lut_mask = "5A5F";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella15 .output_mode = "reg_only";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella16 (
+	.clk(\clk~combout ),
+	.datab(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[16] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella15~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[16] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella16~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella16 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella16 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella16 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella16 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella16 .lut_mask = "C30C";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella16 .output_mode = "reg_only";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella17 (
+	.clk(\clk~combout ),
+	.dataa(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[17] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella16~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[17] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella17~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella17 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella17 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella17 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella17 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella17 .lut_mask = "5A5F";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella17 .output_mode = "reg_only";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella18 (
+	.clk(\clk~combout ),
+	.dataa(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[18] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella17~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[18] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella18~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella18 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella18 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella18 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella18 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella18 .lut_mask = "A50A";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella18 .output_mode = "reg_only";
+
+cyclone_lcell \reduce_nor~384_I (
+	.dataa(\resetValue_in[17]~combout ),
+	.datab(\resetValue_in[18]~combout ),
+	.datac(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[17] ),
+	.datad(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[18] ),
+	.combout(\reduce_nor~384 ));
+defparam \reduce_nor~384_I .operation_mode = "normal";
+defparam \reduce_nor~384_I .synch_mode = "off";
+defparam \reduce_nor~384_I .register_cascade_mode = "off";
+defparam \reduce_nor~384_I .sum_lutc_input = "datac";
+defparam \reduce_nor~384_I .lut_mask = "7BDE";
+defparam \reduce_nor~384_I .output_mode = "comb_only";
+
+cyclone_io \resetValue_in[16]~I (
+	.combout(\resetValue_in[16]~combout ),
+	.padio(resetValue_in[16]));
+defparam \resetValue_in[16]~I .operation_mode = "input";
+defparam \resetValue_in[16]~I .input_register_mode = "none";
+defparam \resetValue_in[16]~I .output_register_mode = "none";
+defparam \resetValue_in[16]~I .oe_register_mode = "none";
+defparam \resetValue_in[16]~I .input_async_reset = "none";
+defparam \resetValue_in[16]~I .output_async_reset = "none";
+defparam \resetValue_in[16]~I .oe_async_reset = "none";
+defparam \resetValue_in[16]~I .input_sync_reset = "none";
+defparam \resetValue_in[16]~I .output_sync_reset = "none";
+defparam \resetValue_in[16]~I .oe_sync_reset = "none";
+defparam \resetValue_in[16]~I .input_power_up = "low";
+defparam \resetValue_in[16]~I .output_power_up = "low";
+defparam \resetValue_in[16]~I .oe_power_up = "low";
+
+cyclone_io \resetValue_in[4]~I (
+	.combout(\resetValue_in[4]~combout ),
+	.padio(resetValue_in[4]));
+defparam \resetValue_in[4]~I .operation_mode = "input";
+defparam \resetValue_in[4]~I .input_register_mode = "none";
+defparam \resetValue_in[4]~I .output_register_mode = "none";
+defparam \resetValue_in[4]~I .oe_register_mode = "none";
+defparam \resetValue_in[4]~I .input_async_reset = "none";
+defparam \resetValue_in[4]~I .output_async_reset = "none";
+defparam \resetValue_in[4]~I .oe_async_reset = "none";
+defparam \resetValue_in[4]~I .input_sync_reset = "none";
+defparam \resetValue_in[4]~I .output_sync_reset = "none";
+defparam \resetValue_in[4]~I .oe_sync_reset = "none";
+defparam \resetValue_in[4]~I .input_power_up = "low";
+defparam \resetValue_in[4]~I .output_power_up = "low";
+defparam \resetValue_in[4]~I .oe_power_up = "low";
+
+cyclone_lcell \reduce_nor~385_I (
+	.dataa(\resetValue_in[16]~combout ),
+	.datab(\resetValue_in[4]~combout ),
+	.datac(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[16] ),
+	.datad(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[4] ),
+	.combout(\reduce_nor~385 ));
+defparam \reduce_nor~385_I .operation_mode = "normal";
+defparam \reduce_nor~385_I .synch_mode = "off";
+defparam \reduce_nor~385_I .register_cascade_mode = "off";
+defparam \reduce_nor~385_I .sum_lutc_input = "datac";
+defparam \reduce_nor~385_I .lut_mask = "7BDE";
+defparam \reduce_nor~385_I .output_mode = "comb_only";
+
+cyclone_io \resetValue_in[23]~I (
+	.combout(\resetValue_in[23]~combout ),
+	.padio(resetValue_in[23]));
+defparam \resetValue_in[23]~I .operation_mode = "input";
+defparam \resetValue_in[23]~I .input_register_mode = "none";
+defparam \resetValue_in[23]~I .output_register_mode = "none";
+defparam \resetValue_in[23]~I .oe_register_mode = "none";
+defparam \resetValue_in[23]~I .input_async_reset = "none";
+defparam \resetValue_in[23]~I .output_async_reset = "none";
+defparam \resetValue_in[23]~I .oe_async_reset = "none";
+defparam \resetValue_in[23]~I .input_sync_reset = "none";
+defparam \resetValue_in[23]~I .output_sync_reset = "none";
+defparam \resetValue_in[23]~I .oe_sync_reset = "none";
+defparam \resetValue_in[23]~I .input_power_up = "low";
+defparam \resetValue_in[23]~I .output_power_up = "low";
+defparam \resetValue_in[23]~I .oe_power_up = "low";
+
+cyclone_io \resetValue_in[7]~I (
+	.combout(\resetValue_in[7]~combout ),
+	.padio(resetValue_in[7]));
+defparam \resetValue_in[7]~I .operation_mode = "input";
+defparam \resetValue_in[7]~I .input_register_mode = "none";
+defparam \resetValue_in[7]~I .output_register_mode = "none";
+defparam \resetValue_in[7]~I .oe_register_mode = "none";
+defparam \resetValue_in[7]~I .input_async_reset = "none";
+defparam \resetValue_in[7]~I .output_async_reset = "none";
+defparam \resetValue_in[7]~I .oe_async_reset = "none";
+defparam \resetValue_in[7]~I .input_sync_reset = "none";
+defparam \resetValue_in[7]~I .output_sync_reset = "none";
+defparam \resetValue_in[7]~I .oe_sync_reset = "none";
+defparam \resetValue_in[7]~I .input_power_up = "low";
+defparam \resetValue_in[7]~I .output_power_up = "low";
+defparam \resetValue_in[7]~I .oe_power_up = "low";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella19 (
+	.clk(\clk~combout ),
+	.datab(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[19] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella18~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[19] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella19~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella19 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella19 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella19 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella19 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella19 .lut_mask = "3C3F";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella19 .output_mode = "reg_only";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella20 (
+	.clk(\clk~combout ),
+	.datab(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[20] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella19~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[20] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella20~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella20 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella20 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella20 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella20 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella20 .lut_mask = "C30C";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella20 .output_mode = "reg_only";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella21 (
+	.clk(\clk~combout ),
+	.datab(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[21] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella20~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[21] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella21~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella21 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella21 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella21 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella21 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella21 .lut_mask = "3C3F";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella21 .output_mode = "reg_only";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella22 (
+	.clk(\clk~combout ),
+	.dataa(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[22] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella21~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[22] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella22~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella22 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella22 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella22 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella22 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella22 .lut_mask = "A50A";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella22 .output_mode = "reg_only";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella23 (
+	.clk(\clk~combout ),
+	.dataa(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[23] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella22~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[23] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella23~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella23 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella23 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella23 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella23 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella23 .lut_mask = "5A5F";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella23 .output_mode = "reg_only";
+
+cyclone_lcell \reduce_nor~386_I (
+	.dataa(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[7] ),
+	.datab(\resetValue_in[23]~combout ),
+	.datac(\resetValue_in[7]~combout ),
+	.datad(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[23] ),
+	.combout(\reduce_nor~386 ));
+defparam \reduce_nor~386_I .operation_mode = "normal";
+defparam \reduce_nor~386_I .synch_mode = "off";
+defparam \reduce_nor~386_I .register_cascade_mode = "off";
+defparam \reduce_nor~386_I .sum_lutc_input = "datac";
+defparam \reduce_nor~386_I .lut_mask = "7BDE";
+defparam \reduce_nor~386_I .output_mode = "comb_only";
+
+cyclone_io \resetValue_in[3]~I (
+	.combout(\resetValue_in[3]~combout ),
+	.padio(resetValue_in[3]));
+defparam \resetValue_in[3]~I .operation_mode = "input";
+defparam \resetValue_in[3]~I .input_register_mode = "none";
+defparam \resetValue_in[3]~I .output_register_mode = "none";
+defparam \resetValue_in[3]~I .oe_register_mode = "none";
+defparam \resetValue_in[3]~I .input_async_reset = "none";
+defparam \resetValue_in[3]~I .output_async_reset = "none";
+defparam \resetValue_in[3]~I .oe_async_reset = "none";
+defparam \resetValue_in[3]~I .input_sync_reset = "none";
+defparam \resetValue_in[3]~I .output_sync_reset = "none";
+defparam \resetValue_in[3]~I .oe_sync_reset = "none";
+defparam \resetValue_in[3]~I .input_power_up = "low";
+defparam \resetValue_in[3]~I .output_power_up = "low";
+defparam \resetValue_in[3]~I .oe_power_up = "low";
+
+cyclone_io \resetValue_in[15]~I (
+	.combout(\resetValue_in[15]~combout ),
+	.padio(resetValue_in[15]));
+defparam \resetValue_in[15]~I .operation_mode = "input";
+defparam \resetValue_in[15]~I .input_register_mode = "none";
+defparam \resetValue_in[15]~I .output_register_mode = "none";
+defparam \resetValue_in[15]~I .oe_register_mode = "none";
+defparam \resetValue_in[15]~I .input_async_reset = "none";
+defparam \resetValue_in[15]~I .output_async_reset = "none";
+defparam \resetValue_in[15]~I .oe_async_reset = "none";
+defparam \resetValue_in[15]~I .input_sync_reset = "none";
+defparam \resetValue_in[15]~I .output_sync_reset = "none";
+defparam \resetValue_in[15]~I .oe_sync_reset = "none";
+defparam \resetValue_in[15]~I .input_power_up = "low";
+defparam \resetValue_in[15]~I .output_power_up = "low";
+defparam \resetValue_in[15]~I .oe_power_up = "low";
+
+cyclone_lcell \reduce_nor~383_I (
+	.dataa(\resetValue_in[3]~combout ),
+	.datab(\resetValue_in[15]~combout ),
+	.datac(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[3] ),
+	.datad(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[15] ),
+	.combout(\reduce_nor~383 ));
+defparam \reduce_nor~383_I .operation_mode = "normal";
+defparam \reduce_nor~383_I .synch_mode = "off";
+defparam \reduce_nor~383_I .register_cascade_mode = "off";
+defparam \reduce_nor~383_I .sum_lutc_input = "datac";
+defparam \reduce_nor~383_I .lut_mask = "7BDE";
+defparam \reduce_nor~383_I .output_mode = "comb_only";
+
+cyclone_lcell \reduce_nor~387_I (
+	.dataa(\reduce_nor~384 ),
+	.datab(\reduce_nor~385 ),
+	.datac(\reduce_nor~386 ),
+	.datad(\reduce_nor~383 ),
+	.combout(\reduce_nor~387 ));
+defparam \reduce_nor~387_I .operation_mode = "normal";
+defparam \reduce_nor~387_I .synch_mode = "off";
+defparam \reduce_nor~387_I .register_cascade_mode = "off";
+defparam \reduce_nor~387_I .sum_lutc_input = "datac";
+defparam \reduce_nor~387_I .lut_mask = "FFFE";
+defparam \reduce_nor~387_I .output_mode = "comb_only";
+
+cyclone_io \resetValue_in[14]~I (
+	.combout(\resetValue_in[14]~combout ),
+	.padio(resetValue_in[14]));
+defparam \resetValue_in[14]~I .operation_mode = "input";
+defparam \resetValue_in[14]~I .input_register_mode = "none";
+defparam \resetValue_in[14]~I .output_register_mode = "none";
+defparam \resetValue_in[14]~I .oe_register_mode = "none";
+defparam \resetValue_in[14]~I .input_async_reset = "none";
+defparam \resetValue_in[14]~I .output_async_reset = "none";
+defparam \resetValue_in[14]~I .oe_async_reset = "none";
+defparam \resetValue_in[14]~I .input_sync_reset = "none";
+defparam \resetValue_in[14]~I .output_sync_reset = "none";
+defparam \resetValue_in[14]~I .oe_sync_reset = "none";
+defparam \resetValue_in[14]~I .input_power_up = "low";
+defparam \resetValue_in[14]~I .output_power_up = "low";
+defparam \resetValue_in[14]~I .oe_power_up = "low";
+
+cyclone_io \resetValue_in[11]~I (
+	.combout(\resetValue_in[11]~combout ),
+	.padio(resetValue_in[11]));
+defparam \resetValue_in[11]~I .operation_mode = "input";
+defparam \resetValue_in[11]~I .input_register_mode = "none";
+defparam \resetValue_in[11]~I .output_register_mode = "none";
+defparam \resetValue_in[11]~I .oe_register_mode = "none";
+defparam \resetValue_in[11]~I .input_async_reset = "none";
+defparam \resetValue_in[11]~I .output_async_reset = "none";
+defparam \resetValue_in[11]~I .oe_async_reset = "none";
+defparam \resetValue_in[11]~I .input_sync_reset = "none";
+defparam \resetValue_in[11]~I .output_sync_reset = "none";
+defparam \resetValue_in[11]~I .oe_sync_reset = "none";
+defparam \resetValue_in[11]~I .input_power_up = "low";
+defparam \resetValue_in[11]~I .output_power_up = "low";
+defparam \resetValue_in[11]~I .oe_power_up = "low";
+
+cyclone_lcell \reduce_nor~394_I (
+	.dataa(\resetValue_in[14]~combout ),
+	.datab(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[11] ),
+	.datac(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[14] ),
+	.datad(\resetValue_in[11]~combout ),
+	.combout(\reduce_nor~394 ));
+defparam \reduce_nor~394_I .operation_mode = "normal";
+defparam \reduce_nor~394_I .synch_mode = "off";
+defparam \reduce_nor~394_I .register_cascade_mode = "off";
+defparam \reduce_nor~394_I .sum_lutc_input = "datac";
+defparam \reduce_nor~394_I .lut_mask = "7BDE";
+defparam \reduce_nor~394_I .output_mode = "comb_only";
+
+cyclone_io \resetValue_in[8]~I (
+	.combout(\resetValue_in[8]~combout ),
+	.padio(resetValue_in[8]));
+defparam \resetValue_in[8]~I .operation_mode = "input";
+defparam \resetValue_in[8]~I .input_register_mode = "none";
+defparam \resetValue_in[8]~I .output_register_mode = "none";
+defparam \resetValue_in[8]~I .oe_register_mode = "none";
+defparam \resetValue_in[8]~I .input_async_reset = "none";
+defparam \resetValue_in[8]~I .output_async_reset = "none";
+defparam \resetValue_in[8]~I .oe_async_reset = "none";
+defparam \resetValue_in[8]~I .input_sync_reset = "none";
+defparam \resetValue_in[8]~I .output_sync_reset = "none";
+defparam \resetValue_in[8]~I .oe_sync_reset = "none";
+defparam \resetValue_in[8]~I .input_power_up = "low";
+defparam \resetValue_in[8]~I .output_power_up = "low";
+defparam \resetValue_in[8]~I .oe_power_up = "low";
+
+cyclone_io \resetValue_in[24]~I (
+	.combout(\resetValue_in[24]~combout ),
+	.padio(resetValue_in[24]));
+defparam \resetValue_in[24]~I .operation_mode = "input";
+defparam \resetValue_in[24]~I .input_register_mode = "none";
+defparam \resetValue_in[24]~I .output_register_mode = "none";
+defparam \resetValue_in[24]~I .oe_register_mode = "none";
+defparam \resetValue_in[24]~I .input_async_reset = "none";
+defparam \resetValue_in[24]~I .output_async_reset = "none";
+defparam \resetValue_in[24]~I .oe_async_reset = "none";
+defparam \resetValue_in[24]~I .input_sync_reset = "none";
+defparam \resetValue_in[24]~I .output_sync_reset = "none";
+defparam \resetValue_in[24]~I .oe_sync_reset = "none";
+defparam \resetValue_in[24]~I .input_power_up = "low";
+defparam \resetValue_in[24]~I .output_power_up = "low";
+defparam \resetValue_in[24]~I .oe_power_up = "low";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella24 (
+	.clk(\clk~combout ),
+	.datab(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[24] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella23~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[24] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella24~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella24 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella24 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella24 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella24 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella24 .lut_mask = "C30C";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella24 .output_mode = "reg_only";
+
+cyclone_lcell \reduce_nor~396_I (
+	.dataa(\resetValue_in[8]~combout ),
+	.datab(\resetValue_in[24]~combout ),
+	.datac(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[8] ),
+	.datad(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[24] ),
+	.combout(\reduce_nor~396 ));
+defparam \reduce_nor~396_I .operation_mode = "normal";
+defparam \reduce_nor~396_I .synch_mode = "off";
+defparam \reduce_nor~396_I .register_cascade_mode = "off";
+defparam \reduce_nor~396_I .sum_lutc_input = "datac";
+defparam \reduce_nor~396_I .lut_mask = "7BDE";
+defparam \reduce_nor~396_I .output_mode = "comb_only";
+
+cyclone_io \resetValue_in[1]~I (
+	.combout(\resetValue_in[1]~combout ),
+	.padio(resetValue_in[1]));
+defparam \resetValue_in[1]~I .operation_mode = "input";
+defparam \resetValue_in[1]~I .input_register_mode = "none";
+defparam \resetValue_in[1]~I .output_register_mode = "none";
+defparam \resetValue_in[1]~I .oe_register_mode = "none";
+defparam \resetValue_in[1]~I .input_async_reset = "none";
+defparam \resetValue_in[1]~I .output_async_reset = "none";
+defparam \resetValue_in[1]~I .oe_async_reset = "none";
+defparam \resetValue_in[1]~I .input_sync_reset = "none";
+defparam \resetValue_in[1]~I .output_sync_reset = "none";
+defparam \resetValue_in[1]~I .oe_sync_reset = "none";
+defparam \resetValue_in[1]~I .input_power_up = "low";
+defparam \resetValue_in[1]~I .output_power_up = "low";
+defparam \resetValue_in[1]~I .oe_power_up = "low";
+
+cyclone_io \resetValue_in[13]~I (
+	.combout(\resetValue_in[13]~combout ),
+	.padio(resetValue_in[13]));
+defparam \resetValue_in[13]~I .operation_mode = "input";
+defparam \resetValue_in[13]~I .input_register_mode = "none";
+defparam \resetValue_in[13]~I .output_register_mode = "none";
+defparam \resetValue_in[13]~I .oe_register_mode = "none";
+defparam \resetValue_in[13]~I .input_async_reset = "none";
+defparam \resetValue_in[13]~I .output_async_reset = "none";
+defparam \resetValue_in[13]~I .oe_async_reset = "none";
+defparam \resetValue_in[13]~I .input_sync_reset = "none";
+defparam \resetValue_in[13]~I .output_sync_reset = "none";
+defparam \resetValue_in[13]~I .oe_sync_reset = "none";
+defparam \resetValue_in[13]~I .input_power_up = "low";
+defparam \resetValue_in[13]~I .output_power_up = "low";
+defparam \resetValue_in[13]~I .oe_power_up = "low";
+
+cyclone_lcell \reduce_nor~395_I (
+	.dataa(\resetValue_in[1]~combout ),
+	.datab(\resetValue_in[13]~combout ),
+	.datac(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[13] ),
+	.datad(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[1] ),
+	.combout(\reduce_nor~395 ));
+defparam \reduce_nor~395_I .operation_mode = "normal";
+defparam \reduce_nor~395_I .synch_mode = "off";
+defparam \reduce_nor~395_I .register_cascade_mode = "off";
+defparam \reduce_nor~395_I .sum_lutc_input = "datac";
+defparam \reduce_nor~395_I .lut_mask = "7DBE";
+defparam \reduce_nor~395_I .output_mode = "comb_only";
+
+cyclone_io \resetValue_in[20]~I (
+	.combout(\resetValue_in[20]~combout ),
+	.padio(resetValue_in[20]));
+defparam \resetValue_in[20]~I .operation_mode = "input";
+defparam \resetValue_in[20]~I .input_register_mode = "none";
+defparam \resetValue_in[20]~I .output_register_mode = "none";
+defparam \resetValue_in[20]~I .oe_register_mode = "none";
+defparam \resetValue_in[20]~I .input_async_reset = "none";
+defparam \resetValue_in[20]~I .output_async_reset = "none";
+defparam \resetValue_in[20]~I .oe_async_reset = "none";
+defparam \resetValue_in[20]~I .input_sync_reset = "none";
+defparam \resetValue_in[20]~I .output_sync_reset = "none";
+defparam \resetValue_in[20]~I .oe_sync_reset = "none";
+defparam \resetValue_in[20]~I .input_power_up = "low";
+defparam \resetValue_in[20]~I .output_power_up = "low";
+defparam \resetValue_in[20]~I .oe_power_up = "low";
+
+cyclone_io \resetValue_in[2]~I (
+	.combout(\resetValue_in[2]~combout ),
+	.padio(resetValue_in[2]));
+defparam \resetValue_in[2]~I .operation_mode = "input";
+defparam \resetValue_in[2]~I .input_register_mode = "none";
+defparam \resetValue_in[2]~I .output_register_mode = "none";
+defparam \resetValue_in[2]~I .oe_register_mode = "none";
+defparam \resetValue_in[2]~I .input_async_reset = "none";
+defparam \resetValue_in[2]~I .output_async_reset = "none";
+defparam \resetValue_in[2]~I .oe_async_reset = "none";
+defparam \resetValue_in[2]~I .input_sync_reset = "none";
+defparam \resetValue_in[2]~I .output_sync_reset = "none";
+defparam \resetValue_in[2]~I .oe_sync_reset = "none";
+defparam \resetValue_in[2]~I .input_power_up = "low";
+defparam \resetValue_in[2]~I .output_power_up = "low";
+defparam \resetValue_in[2]~I .oe_power_up = "low";
+
+cyclone_lcell \reduce_nor~393_I (
+	.dataa(\resetValue_in[20]~combout ),
+	.datab(\resetValue_in[2]~combout ),
+	.datac(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[20] ),
+	.datad(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[2] ),
+	.combout(\reduce_nor~393 ));
+defparam \reduce_nor~393_I .operation_mode = "normal";
+defparam \reduce_nor~393_I .synch_mode = "off";
+defparam \reduce_nor~393_I .register_cascade_mode = "off";
+defparam \reduce_nor~393_I .sum_lutc_input = "datac";
+defparam \reduce_nor~393_I .lut_mask = "7BDE";
+defparam \reduce_nor~393_I .output_mode = "comb_only";
+
+cyclone_lcell \reduce_nor~397_I (
+	.dataa(\reduce_nor~394 ),
+	.datab(\reduce_nor~396 ),
+	.datac(\reduce_nor~395 ),
+	.datad(\reduce_nor~393 ),
+	.combout(\reduce_nor~397 ));
+defparam \reduce_nor~397_I .operation_mode = "normal";
+defparam \reduce_nor~397_I .synch_mode = "off";
+defparam \reduce_nor~397_I .register_cascade_mode = "off";
+defparam \reduce_nor~397_I .sum_lutc_input = "datac";
+defparam \reduce_nor~397_I .lut_mask = "FFFE";
+defparam \reduce_nor~397_I .output_mode = "comb_only";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella25 (
+	.clk(\clk~combout ),
+	.dataa(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[25] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella24~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[25] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella25~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella25 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella25 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella25 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella25 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella25 .lut_mask = "5A5F";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella25 .output_mode = "reg_only";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella26 (
+	.clk(\clk~combout ),
+	.datab(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[26] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella25~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[26] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella26~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella26 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella26 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella26 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella26 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella26 .lut_mask = "C30C";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella26 .output_mode = "reg_only";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella27 (
+	.clk(\clk~combout ),
+	.dataa(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[27] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella26~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[27] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella27~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella27 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella27 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella27 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella27 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella27 .lut_mask = "5A5F";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella27 .output_mode = "reg_only";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella28 (
+	.clk(\clk~combout ),
+	.dataa(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[28] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella27~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[28] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella28~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella28 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella28 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella28 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella28 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella28 .lut_mask = "A50A";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella28 .output_mode = "reg_only";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella29 (
+	.clk(\clk~combout ),
+	.datab(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[29] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella28~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[29] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella29~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella29 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella29 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella29 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella29 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella29 .lut_mask = "3C3F";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella29 .output_mode = "reg_only";
+
+cyclone_lcell \reduce_nor~399_I (
+	.dataa(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[27] ),
+	.datab(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[26] ),
+	.datac(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[28] ),
+	.datad(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[29] ),
+	.combout(\reduce_nor~399 ));
+defparam \reduce_nor~399_I .operation_mode = "normal";
+defparam \reduce_nor~399_I .synch_mode = "off";
+defparam \reduce_nor~399_I .register_cascade_mode = "off";
+defparam \reduce_nor~399_I .sum_lutc_input = "datac";
+defparam \reduce_nor~399_I .lut_mask = "FFFE";
+defparam \reduce_nor~399_I .output_mode = "comb_only";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella30 (
+	.clk(\clk~combout ),
+	.dataa(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[30] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella29~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[30] ),
+	.cout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella30~COUT ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella30 .operation_mode = "arithmetic";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella30 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella30 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella30 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella30 .lut_mask = "A50A";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella30 .output_mode = "reg_only";
+
+cyclone_lcell \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella31 (
+	.clk(\clk~combout ),
+	.datad(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[31] ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.sclr(\reduce_nor~401 ),
+	.cin(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella30~COUT ),
+	.regout(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[31] ));
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella31 .operation_mode = "normal";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella31 .synch_mode = "on";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella31 .register_cascade_mode = "off";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella31 .sum_lutc_input = "cin";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella31 .lut_mask = "0FF0";
+defparam \lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|counter_cella31 .output_mode = "reg_only";
+
+cyclone_io \resetValue_in[0]~I (
+	.combout(\resetValue_in[0]~combout ),
+	.padio(resetValue_in[0]));
+defparam \resetValue_in[0]~I .operation_mode = "input";
+defparam \resetValue_in[0]~I .input_register_mode = "none";
+defparam \resetValue_in[0]~I .output_register_mode = "none";
+defparam \resetValue_in[0]~I .oe_register_mode = "none";
+defparam \resetValue_in[0]~I .input_async_reset = "none";
+defparam \resetValue_in[0]~I .output_async_reset = "none";
+defparam \resetValue_in[0]~I .oe_async_reset = "none";
+defparam \resetValue_in[0]~I .input_sync_reset = "none";
+defparam \resetValue_in[0]~I .output_sync_reset = "none";
+defparam \resetValue_in[0]~I .oe_sync_reset = "none";
+defparam \resetValue_in[0]~I .input_power_up = "low";
+defparam \resetValue_in[0]~I .output_power_up = "low";
+defparam \resetValue_in[0]~I .oe_power_up = "low";
+
+cyclone_io \resetValue_in[12]~I (
+	.combout(\resetValue_in[12]~combout ),
+	.padio(resetValue_in[12]));
+defparam \resetValue_in[12]~I .operation_mode = "input";
+defparam \resetValue_in[12]~I .input_register_mode = "none";
+defparam \resetValue_in[12]~I .output_register_mode = "none";
+defparam \resetValue_in[12]~I .oe_register_mode = "none";
+defparam \resetValue_in[12]~I .input_async_reset = "none";
+defparam \resetValue_in[12]~I .output_async_reset = "none";
+defparam \resetValue_in[12]~I .oe_async_reset = "none";
+defparam \resetValue_in[12]~I .input_sync_reset = "none";
+defparam \resetValue_in[12]~I .output_sync_reset = "none";
+defparam \resetValue_in[12]~I .oe_sync_reset = "none";
+defparam \resetValue_in[12]~I .input_power_up = "low";
+defparam \resetValue_in[12]~I .output_power_up = "low";
+defparam \resetValue_in[12]~I .oe_power_up = "low";
+
+cyclone_lcell \reduce_nor~398_I (
+	.dataa(\resetValue_in[0]~combout ),
+	.datab(\resetValue_in[12]~combout ),
+	.datac(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[0] ),
+	.datad(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[12] ),
+	.combout(\reduce_nor~398 ));
+defparam \reduce_nor~398_I .operation_mode = "normal";
+defparam \reduce_nor~398_I .synch_mode = "off";
+defparam \reduce_nor~398_I .register_cascade_mode = "off";
+defparam \reduce_nor~398_I .sum_lutc_input = "datac";
+defparam \reduce_nor~398_I .lut_mask = "7BDE";
+defparam \reduce_nor~398_I .output_mode = "comb_only";
+
+cyclone_lcell \reduce_nor~400_I (
+	.dataa(\reduce_nor~399 ),
+	.datab(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[31] ),
+	.datac(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[30] ),
+	.datad(\reduce_nor~398 ),
+	.combout(\reduce_nor~400 ));
+defparam \reduce_nor~400_I .operation_mode = "normal";
+defparam \reduce_nor~400_I .synch_mode = "off";
+defparam \reduce_nor~400_I .register_cascade_mode = "off";
+defparam \reduce_nor~400_I .sum_lutc_input = "datac";
+defparam \reduce_nor~400_I .lut_mask = "FFFE";
+defparam \reduce_nor~400_I .output_mode = "comb_only";
+
+cyclone_lcell \clkEnable_out~reg0_I (
+	.clk(\clk~combout ),
+	.dataa(\reduce_nor~392 ),
+	.datab(\reduce_nor~387 ),
+	.datac(\reduce_nor~397 ),
+	.datad(\reduce_nor~400 ),
+	.aclr(\__ALT_INV__nReset~combout ),
+	.combout(\reduce_nor~401 ),
+	.regout(\clkEnable_out~reg0 ));
+defparam \clkEnable_out~reg0_I .operation_mode = "normal";
+defparam \clkEnable_out~reg0_I .synch_mode = "off";
+defparam \clkEnable_out~reg0_I .register_cascade_mode = "off";
+defparam \clkEnable_out~reg0_I .sum_lutc_input = "datac";
+defparam \clkEnable_out~reg0_I .lut_mask = "0001";
+defparam \clkEnable_out~reg0_I .output_mode = "reg_and_comb";
+
+cyclone_lcell \reduce_nor~388_I (
+	.dataa(\resetValue_in[21]~combout ),
+	.datab(\resetValue_in[22]~combout ),
+	.datac(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[21] ),
+	.datad(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[22] ),
+	.combout(\reduce_nor~388 ));
+defparam \reduce_nor~388_I .operation_mode = "normal";
+defparam \reduce_nor~388_I .synch_mode = "off";
+defparam \reduce_nor~388_I .register_cascade_mode = "off";
+defparam \reduce_nor~388_I .sum_lutc_input = "datac";
+defparam \reduce_nor~388_I .lut_mask = "7BDE";
+defparam \reduce_nor~388_I .output_mode = "comb_only";
+
+cyclone_io \resetValue_in[6]~I (
+	.combout(\resetValue_in[6]~combout ),
+	.padio(resetValue_in[6]));
+defparam \resetValue_in[6]~I .operation_mode = "input";
+defparam \resetValue_in[6]~I .input_register_mode = "none";
+defparam \resetValue_in[6]~I .output_register_mode = "none";
+defparam \resetValue_in[6]~I .oe_register_mode = "none";
+defparam \resetValue_in[6]~I .input_async_reset = "none";
+defparam \resetValue_in[6]~I .output_async_reset = "none";
+defparam \resetValue_in[6]~I .oe_async_reset = "none";
+defparam \resetValue_in[6]~I .input_sync_reset = "none";
+defparam \resetValue_in[6]~I .output_sync_reset = "none";
+defparam \resetValue_in[6]~I .oe_sync_reset = "none";
+defparam \resetValue_in[6]~I .input_power_up = "low";
+defparam \resetValue_in[6]~I .output_power_up = "low";
+defparam \resetValue_in[6]~I .oe_power_up = "low";
+
+cyclone_io \resetValue_in[25]~I (
+	.combout(\resetValue_in[25]~combout ),
+	.padio(resetValue_in[25]));
+defparam \resetValue_in[25]~I .operation_mode = "input";
+defparam \resetValue_in[25]~I .input_register_mode = "none";
+defparam \resetValue_in[25]~I .output_register_mode = "none";
+defparam \resetValue_in[25]~I .oe_register_mode = "none";
+defparam \resetValue_in[25]~I .input_async_reset = "none";
+defparam \resetValue_in[25]~I .output_async_reset = "none";
+defparam \resetValue_in[25]~I .oe_async_reset = "none";
+defparam \resetValue_in[25]~I .input_sync_reset = "none";
+defparam \resetValue_in[25]~I .output_sync_reset = "none";
+defparam \resetValue_in[25]~I .oe_sync_reset = "none";
+defparam \resetValue_in[25]~I .input_power_up = "low";
+defparam \resetValue_in[25]~I .output_power_up = "low";
+defparam \resetValue_in[25]~I .oe_power_up = "low";
+
+cyclone_lcell \reduce_nor~390_I (
+	.dataa(\resetValue_in[6]~combout ),
+	.datab(\resetValue_in[25]~combout ),
+	.datac(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[25] ),
+	.datad(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[6] ),
+	.combout(\reduce_nor~390 ));
+defparam \reduce_nor~390_I .operation_mode = "normal";
+defparam \reduce_nor~390_I .synch_mode = "off";
+defparam \reduce_nor~390_I .register_cascade_mode = "off";
+defparam \reduce_nor~390_I .sum_lutc_input = "datac";
+defparam \reduce_nor~390_I .lut_mask = "7DBE";
+defparam \reduce_nor~390_I .output_mode = "comb_only";
+
+cyclone_io \resetValue_in[5]~I (
+	.combout(\resetValue_in[5]~combout ),
+	.padio(resetValue_in[5]));
+defparam \resetValue_in[5]~I .operation_mode = "input";
+defparam \resetValue_in[5]~I .input_register_mode = "none";
+defparam \resetValue_in[5]~I .output_register_mode = "none";
+defparam \resetValue_in[5]~I .oe_register_mode = "none";
+defparam \resetValue_in[5]~I .input_async_reset = "none";
+defparam \resetValue_in[5]~I .output_async_reset = "none";
+defparam \resetValue_in[5]~I .oe_async_reset = "none";
+defparam \resetValue_in[5]~I .input_sync_reset = "none";
+defparam \resetValue_in[5]~I .output_sync_reset = "none";
+defparam \resetValue_in[5]~I .oe_sync_reset = "none";
+defparam \resetValue_in[5]~I .input_power_up = "low";
+defparam \resetValue_in[5]~I .output_power_up = "low";
+defparam \resetValue_in[5]~I .oe_power_up = "low";
+
+cyclone_io \resetValue_in[19]~I (
+	.combout(\resetValue_in[19]~combout ),
+	.padio(resetValue_in[19]));
+defparam \resetValue_in[19]~I .operation_mode = "input";
+defparam \resetValue_in[19]~I .input_register_mode = "none";
+defparam \resetValue_in[19]~I .output_register_mode = "none";
+defparam \resetValue_in[19]~I .oe_register_mode = "none";
+defparam \resetValue_in[19]~I .input_async_reset = "none";
+defparam \resetValue_in[19]~I .output_async_reset = "none";
+defparam \resetValue_in[19]~I .oe_async_reset = "none";
+defparam \resetValue_in[19]~I .input_sync_reset = "none";
+defparam \resetValue_in[19]~I .output_sync_reset = "none";
+defparam \resetValue_in[19]~I .oe_sync_reset = "none";
+defparam \resetValue_in[19]~I .input_power_up = "low";
+defparam \resetValue_in[19]~I .output_power_up = "low";
+defparam \resetValue_in[19]~I .oe_power_up = "low";
+
+cyclone_lcell \reduce_nor~391_I (
+	.dataa(\resetValue_in[5]~combout ),
+	.datab(\resetValue_in[19]~combout ),
+	.datac(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[19] ),
+	.datad(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[5] ),
+	.combout(\reduce_nor~391 ));
+defparam \reduce_nor~391_I .operation_mode = "normal";
+defparam \reduce_nor~391_I .synch_mode = "off";
+defparam \reduce_nor~391_I .register_cascade_mode = "off";
+defparam \reduce_nor~391_I .sum_lutc_input = "datac";
+defparam \reduce_nor~391_I .lut_mask = "7DBE";
+defparam \reduce_nor~391_I .output_mode = "comb_only";
+
+cyclone_io \resetValue_in[10]~I (
+	.combout(\resetValue_in[10]~combout ),
+	.padio(resetValue_in[10]));
+defparam \resetValue_in[10]~I .operation_mode = "input";
+defparam \resetValue_in[10]~I .input_register_mode = "none";
+defparam \resetValue_in[10]~I .output_register_mode = "none";
+defparam \resetValue_in[10]~I .oe_register_mode = "none";
+defparam \resetValue_in[10]~I .input_async_reset = "none";
+defparam \resetValue_in[10]~I .output_async_reset = "none";
+defparam \resetValue_in[10]~I .oe_async_reset = "none";
+defparam \resetValue_in[10]~I .input_sync_reset = "none";
+defparam \resetValue_in[10]~I .output_sync_reset = "none";
+defparam \resetValue_in[10]~I .oe_sync_reset = "none";
+defparam \resetValue_in[10]~I .input_power_up = "low";
+defparam \resetValue_in[10]~I .output_power_up = "low";
+defparam \resetValue_in[10]~I .oe_power_up = "low";
+
+cyclone_io \resetValue_in[9]~I (
+	.combout(\resetValue_in[9]~combout ),
+	.padio(resetValue_in[9]));
+defparam \resetValue_in[9]~I .operation_mode = "input";
+defparam \resetValue_in[9]~I .input_register_mode = "none";
+defparam \resetValue_in[9]~I .output_register_mode = "none";
+defparam \resetValue_in[9]~I .oe_register_mode = "none";
+defparam \resetValue_in[9]~I .input_async_reset = "none";
+defparam \resetValue_in[9]~I .output_async_reset = "none";
+defparam \resetValue_in[9]~I .oe_async_reset = "none";
+defparam \resetValue_in[9]~I .input_sync_reset = "none";
+defparam \resetValue_in[9]~I .output_sync_reset = "none";
+defparam \resetValue_in[9]~I .oe_sync_reset = "none";
+defparam \resetValue_in[9]~I .input_power_up = "low";
+defparam \resetValue_in[9]~I .output_power_up = "low";
+defparam \resetValue_in[9]~I .oe_power_up = "low";
+
+cyclone_lcell \reduce_nor~389_I (
+	.dataa(\resetValue_in[10]~combout ),
+	.datab(\resetValue_in[9]~combout ),
+	.datac(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[10] ),
+	.datad(\lpm_counter:clkCount_rtl_0|cntr_jq7:auto_generated|safe_q[9] ),
+	.combout(\reduce_nor~389 ));
+defparam \reduce_nor~389_I .operation_mode = "normal";
+defparam \reduce_nor~389_I .synch_mode = "off";
+defparam \reduce_nor~389_I .register_cascade_mode = "off";
+defparam \reduce_nor~389_I .sum_lutc_input = "datac";
+defparam \reduce_nor~389_I .lut_mask = "7BDE";
+defparam \reduce_nor~389_I .output_mode = "comb_only";
+
+cyclone_lcell \reduce_nor~392_I (
+	.dataa(\reduce_nor~388 ),
+	.datab(\reduce_nor~390 ),
+	.datac(\reduce_nor~391 ),
+	.datad(\reduce_nor~389 ),
+	.combout(\reduce_nor~392 ));
+defparam \reduce_nor~392_I .operation_mode = "normal";
+defparam \reduce_nor~392_I .synch_mode = "off";
+defparam \reduce_nor~392_I .register_cascade_mode = "off";
+defparam \reduce_nor~392_I .sum_lutc_input = "datac";
+defparam \reduce_nor~392_I .lut_mask = "FFFE";
+defparam \reduce_nor~392_I .output_mode = "comb_only";
+
+cyclone_io \clkEnable_out~I (
+	.datain(\clkEnable_out~reg0 ),
+	.padio(clkEnable_out));
+defparam \clkEnable_out~I .operation_mode = "output";
+defparam \clkEnable_out~I .input_register_mode = "none";
+defparam \clkEnable_out~I .output_register_mode = "none";
+defparam \clkEnable_out~I .oe_register_mode = "none";
+defparam \clkEnable_out~I .input_async_reset = "none";
+defparam \clkEnable_out~I .output_async_reset = "none";
+defparam \clkEnable_out~I .oe_async_reset = "none";
+defparam \clkEnable_out~I .input_sync_reset = "none";
+defparam \clkEnable_out~I .output_sync_reset = "none";
+defparam \clkEnable_out~I .oe_sync_reset = "none";
+defparam \clkEnable_out~I .input_power_up = "low";
+defparam \clkEnable_out~I .output_power_up = "low";
+defparam \clkEnable_out~I .oe_power_up = "low";
+
+endmodule

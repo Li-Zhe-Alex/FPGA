@@ -1,0 +1,297 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/FPGA-Labor/Versuch02/modelsim
+Eadder_demo
+Z0 w1568727053
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dD:/FPGA-Labor/Versuch03/modelsim
+Z5 8D:/FPGA-Labor/Versuch03/vhdl/adder_demo.vhdl
+Z6 FD:/FPGA-Labor/Versuch03/vhdl/adder_demo.vhdl
+l0
+L15
+Va<Y<aT@6]fD[3zUT42?]63
+!s100 ;RL<Me5BMF^XQJ>R>MAVB1
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1568727057
+!i10b 1
+Z9 !s108 1568727057.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch03/vhdl/adder_demo.vhdl|
+Z11 !s107 D:/FPGA-Labor/Versuch03/vhdl/adder_demo.vhdl|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+DEx4 work 10 adder_demo 0 22 a<Y<aT@6]fD[3zUT42?]63
+l48
+L25
+VnNh]:SUABQBW3I?@G]gOk1
+!s100 `5D;DX=i0XVdB[[AKH=j:3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Easync_adder
+Z14 w1568710289
+R1
+R2
+R3
+R4
+Z15 8D:/FPGA-Labor/Versuch03/vhdl/async_adder.vhdl
+Z16 FD:/FPGA-Labor/Versuch03/vhdl/async_adder.vhdl
+l0
+L15
+VmEGik65kmeY:H7TLl>NkB0
+!s100 Qd_;DbkGW3<1:VDU7l6eF1
+R7
+32
+Z17 !s110 1568727468
+!i10b 1
+Z18 !s108 1568727468.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch03/vhdl/async_adder.vhdl|
+Z20 !s107 D:/FPGA-Labor/Versuch03/vhdl/async_adder.vhdl|
+!i113 1
+R12
+R13
+Aasync
+R1
+R2
+R3
+DEx4 work 11 async_adder 0 22 mEGik65kmeY:H7TLl>NkB0
+l24
+L23
+V^MF@^[An2QSJ:B5;FZ5>M1
+!s100 WCJA7@NzJ05JJ:bC4E?2j1
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Easync_adder_demo
+Z21 w1568725176
+R1
+R2
+R3
+R4
+Z22 8D:/FPGA-Labor/Versuch03/vhdl/async_adder_demo.vhdl
+Z23 FD:/FPGA-Labor/Versuch03/vhdl/async_adder_demo.vhdl
+l0
+L15
+VS?z_YGnf^;]AV>PZG_OEe3
+!s100 OWZF3UMmOH[7d3]o]K5WF0
+R7
+32
+R17
+!i10b 1
+R18
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch03/vhdl/async_adder_demo.vhdl|
+Z25 !s107 D:/FPGA-Labor/Versuch03/vhdl/async_adder_demo.vhdl|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 16 async_adder_demo 0 22 S?z_YGnf^;]AV>PZG_OEe3
+l45
+L24
+V3:5Z[4@aY?HH3j[V6E7Dh0
+!s100 @fO4D9Nd7KNjLe_NW^X]82
+R7
+32
+R17
+!i10b 1
+R18
+R24
+R25
+!i113 1
+R12
+R13
+Easync_adder_tb
+Z26 w1568727578
+R1
+R2
+R3
+R4
+Z27 8D:/FPGA-Labor/Versuch03/testbench/async_adder_tb.vhdl
+Z28 FD:/FPGA-Labor/Versuch03/testbench/async_adder_tb.vhdl
+l0
+L15
+V^l3U09HT=OC`mA:C5VZ2I0
+!s100 X_@jNQcG;VWafdMkBAdfi3
+R7
+32
+Z29 !s110 1568728136
+!i10b 1
+Z30 !s108 1568728135.000000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch03/testbench/async_adder_tb.vhdl|
+Z32 !s107 D:/FPGA-Labor/Versuch03/testbench/async_adder_tb.vhdl|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+Z33 DEx4 work 14 async_adder_tb 0 22 ^l3U09HT=OC`mA:C5VZ2I0
+l35
+L18
+VA82`HIa`?D3kK8UjXRBgj1
+!s100 dc=Fz09OoFg[C]HhBJI7T3
+R7
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R12
+R13
+Esegment_decoder
+Z34 w1507559954
+R1
+R2
+R3
+R4
+Z35 8D:/FPGA-Labor/Versuch03/vhdl/segment_decoder.vhdl
+Z36 FD:/FPGA-Labor/Versuch03/vhdl/segment_decoder.vhdl
+l0
+L17
+VZmJPKLYOHnW63LzY7M^GJ1
+!s100 C]<VQnLi5z^5MoM]jCjME2
+R7
+32
+R17
+!i10b 1
+Z37 !s108 1568727467.000000
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch03/vhdl/segment_decoder.vhdl|
+Z39 !s107 D:/FPGA-Labor/Versuch03/vhdl/segment_decoder.vhdl|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 15 segment_decoder 0 22 ZmJPKLYOHnW63LzY7M^GJ1
+l42
+L26
+VbKQCj]0z[_zcSNDg@ndPa3
+!s100 DLR@h5U>4BOZcDhoShMBB0
+R7
+32
+R17
+!i10b 1
+R37
+R38
+R39
+!i113 1
+R12
+R13
+Esync_adder
+Z40 w1568727054
+R1
+R2
+R3
+R4
+Z41 8D:/FPGA-Labor/Versuch03/vhdl/sync_adder.vhdl
+Z42 FD:/FPGA-Labor/Versuch03/vhdl/sync_adder.vhdl
+l0
+L15
+VLbJE1`Uoa@RKg<D_99Dk93
+!s100 odRVdQlj54BLB<Dae4mgz3
+R7
+32
+Z43 !s110 1568727059
+!i10b 1
+Z44 !s108 1568727059.000000
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch03/vhdl/sync_adder.vhdl|
+Z46 !s107 D:/FPGA-Labor/Versuch03/vhdl/sync_adder.vhdl|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 10 sync_adder 0 22 LbJE1`Uoa@RKg<D_99Dk93
+l28
+L26
+VV_1Fc69lLcBmahnI6mPXA2
+!s100 9GzRcAlXG__ebnbUFN^`a1
+R7
+32
+R43
+!i10b 1
+R44
+R45
+R46
+!i113 1
+R12
+R13
+Esync_adder_tb
+Z47 w1568727394
+R1
+R2
+R3
+R4
+Z48 8D:/FPGA-Labor/Versuch03/testbench/sync_adder_tb.vhdl
+Z49 FD:/FPGA-Labor/Versuch03/testbench/sync_adder_tb.vhdl
+l0
+L15
+V2O0z4]Y^WCUKSgSWFnB421
+!s100 dPcMb9XDK_K=zWkPMgXAl1
+R7
+32
+Z50 !s110 1568727398
+!i10b 1
+Z51 !s108 1568727398.000000
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch03/testbench/sync_adder_tb.vhdl|
+Z53 !s107 D:/FPGA-Labor/Versuch03/testbench/sync_adder_tb.vhdl|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 13 sync_adder_tb 0 22 2O0z4]Y^WCUKSgSWFnB421
+l37
+L18
+Vh3=jbjzUGHf3bN`n_HJFU0
+!s100 RL<N5<la<XJm4O]LkgS4S0
+R7
+32
+R50
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R12
+R13

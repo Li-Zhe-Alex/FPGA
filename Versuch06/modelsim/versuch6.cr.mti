@@ -1,0 +1,118 @@
+D:/FPGA-Labor/Versuch06/vhdl/p2s_unit.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA-Labor/Versuch06/vhdl/p2s_unit.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fpga_audiofx_pkg
+-- Compiling entity p2s_unit
+-- Compiling architecture rtl of p2s_unit
+
+} {} {}} D:/FPGA-Labor/Versuch06/vhdl/s2p_unit.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA-Labor/Versuch06/vhdl/s2p_unit.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fpga_audiofx_pkg
+-- Compiling entity s2p_unit
+-- Compiling architecture rtl of s2p_unit
+
+} {} {}} D:/FPGA-Labor/Versuch06/testbench/fpga_audiofx_tb.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA-Labor/Versuch06/testbench/fpga_audiofx_tb.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fpga_audiofx_pkg
+-- Compiling entity fpga_audiofx_tb
+-- Compiling architecture rtl of fpga_audiofx_tb
+
+} {} {}} D:/FPGA-Labor/Versuch06/vhdl/fpga_audiofx_pkg.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA-Labor/Versuch06/vhdl/fpga_audiofx_pkg.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package fpga_audiofx_pkg
+-- Compiling package body fpga_audiofx_pkg
+-- Loading package fpga_audiofx_pkg
+
+} {} {}} D:/FPGA-Labor/Versuch06/vhdl/pll.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA-Labor/Versuch06/vhdl/pll.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity pll
+-- Compiling architecture SYN of pll
+
+} {} {}} D:/FPGA-Labor/Versuch06/testbench/acodec_model.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA-Labor/Versuch06/testbench/acodec_model.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity acodec_model
+-- Compiling architecture rtl of acodec_model
+
+} {} {}} D:/FPGA-Labor/Versuch06/vhdl/fifo.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA-Labor/Versuch06/vhdl/fifo.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fpga_audiofx_pkg
+-- Compiling entity fifo
+-- Compiling architecture rtl of fifo
+
+} {} {}} D:/FPGA-Labor/Versuch06/vhdl/fpga_audiofx.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA-Labor/Versuch06/vhdl/fpga_audiofx.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fpga_audiofx_pkg
+-- Compiling entity fpga_audiofx
+-- Compiling architecture rtl of fpga_audiofx
+
+} {} {}} D:/FPGA-Labor/Versuch06/vhdl/i2s_slave.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA-Labor/Versuch06/vhdl/i2s_slave.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fpga_audiofx_pkg
+-- Compiling entity i2s_slave
+-- Compiling architecture rtl of i2s_slave
+
+} {} {}} D:/FPGA-Labor/Versuch06/vhdl/i2c_master.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA-Labor/Versuch06/vhdl/i2c_master.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fpga_audiofx_pkg
+-- Compiling entity i2c_master
+-- Compiling architecture rtl of i2c_master
+
+} {} {}} D:/FPGA-Labor/Versuch06/vhdl/wm8731_configurator.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA-Labor/Versuch06/vhdl/wm8731_configurator.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fpga_audiofx_pkg
+-- Compiling entity wm8731_configurator
+-- Compiling architecture rtl of wm8731_configurator
+
+} {} {}} D:/FPGA-Labor/Versuch06/vhdl/clock_generator.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA-Labor/Versuch06/vhdl/clock_generator.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fpga_audiofx_pkg
+-- Compiling entity clock_generator
+-- Compiling architecture rtl of clock_generator
+
+} {} {}}

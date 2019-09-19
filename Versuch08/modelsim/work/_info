@@ -1,0 +1,450 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/FPGA-Labor/Versuch07/modelsim
+valtera_reset_controller
+Z0 !s110 1568835008
+!i10b 1
+!s100 z[H_hRO9gO=:^2E3_jWH03
+I;BVQI0;@UG0lXHQzmk>Um1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/FPGA-Labor/Versuch08/modelsim
+Z3 w1507559954
+8D:/FPGA-Labor/Versuch08/vhdl/altera_reset_controller.v
+FD:/FPGA-Labor/Versuch08/vhdl/altera_reset_controller.v
+L0 42
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1568835008.000000
+!s107 D:/FPGA-Labor/Versuch08/vhdl/altera_reset_controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA-Labor/Versuch08/vhdl/altera_reset_controller.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+valtera_reset_synchronizer
+R0
+!i10b 1
+!s100 oWLYmSO[EOX[G0PgQhZ2=0
+IPl=m@[;MW3XB93DOeQzN@1
+R1
+R2
+R3
+8D:/FPGA-Labor/Versuch08/vhdl/altera_reset_synchronizer.v
+FD:/FPGA-Labor/Versuch08/vhdl/altera_reset_synchronizer.v
+L0 24
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/FPGA-Labor/Versuch08/vhdl/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA-Labor/Versuch08/vhdl/altera_reset_synchronizer.v|
+!i113 1
+R6
+R7
+Edelay_unit
+Z8 w1568833677
+Z9 DPx4 work 16 fpga_audiofx_pkg 0 22 nIAlFF@gFbFchYz<^m9e53
+Z10 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z11 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z12 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R2
+Z13 8D:/FPGA-Labor/Versuch08/vhdl/delay_unit.vhdl
+Z14 FD:/FPGA-Labor/Versuch08/vhdl/delay_unit.vhdl
+l0
+L20
+V<@QVzbjWoJh9iGCGmlgIc2
+!s100 PI<5]Ne`jWkkYP104hkTS0
+Z15 OV;C;10.5b;63
+32
+R0
+!i10b 1
+R5
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch08/vhdl/delay_unit.vhdl|
+Z17 !s107 D:/FPGA-Labor/Versuch08/vhdl/delay_unit.vhdl|
+!i113 1
+Z18 o-work work -2002 -explicit
+Z19 tExplicit 1 CvgOpt 0
+Artl
+R9
+R10
+R11
+R12
+DEx4 work 10 delay_unit 0 22 <@QVzbjWoJh9iGCGmlgIc2
+l131
+L58
+Voa3PG3>4VKO_=U=A@J3k63
+!s100 QRoGkZk_D::FEci[30m4]3
+R15
+32
+R0
+!i10b 1
+R5
+R16
+R17
+!i113 1
+R18
+R19
+Efifo_sync_dc
+R3
+R11
+R12
+R2
+Z20 8D:/FPGA-Labor/Versuch08/vhdl/fifo_sync_dc.vhdl
+Z21 FD:/FPGA-Labor/Versuch08/vhdl/fifo_sync_dc.vhdl
+l0
+L43
+VYB09hB?VgLj70RBiB[:hM1
+!s100 8RKbc@55kbe04VWl4ROeg1
+R15
+32
+R0
+!i10b 1
+R5
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch08/vhdl/fifo_sync_dc.vhdl|
+Z23 !s107 D:/FPGA-Labor/Versuch08/vhdl/fifo_sync_dc.vhdl|
+!i113 1
+R18
+R19
+Asyn
+R11
+R12
+DEx4 work 12 fifo_sync_dc 0 22 YB09hB?VgLj70RBiB[:hM1
+l110
+L67
+V?2IL[jnQlCbha?A<j@QIn0
+!s100 RE28[eJo2LY7`VXN;QFR]1
+R15
+32
+R0
+!i10b 1
+R5
+R22
+R23
+!i113 1
+R18
+R19
+Efpga_audiofx
+R3
+R9
+R10
+R11
+R12
+R2
+Z24 8D:/FPGA-Labor/Versuch08/vhdl/fpga_audiofx_Aufgabenteil_XV.vhdl
+Z25 FD:/FPGA-Labor/Versuch08/vhdl/fpga_audiofx_Aufgabenteil_XV.vhdl
+l0
+L20
+VUQPK2An:nej:XXh8EL[_63
+!s100 A2oRiNUlYm@Z9Wb8R]hYE1
+R15
+32
+R0
+!i10b 1
+R5
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch08/vhdl/fpga_audiofx_Aufgabenteil_XV.vhdl|
+Z27 !s107 D:/FPGA-Labor/Versuch08/vhdl/fpga_audiofx_Aufgabenteil_XV.vhdl|
+!i113 1
+R18
+R19
+Artl
+R9
+R10
+R11
+R12
+DEx4 work 12 fpga_audiofx 0 22 UQPK2An:nej:XXh8EL[_63
+l335
+L54
+VFCjD<d`_Nd85Jl=UQP`FV2
+!s100 zCMe`dVSmgl_>1hR_R>i=3
+R15
+32
+R0
+!i10b 1
+R5
+R26
+R27
+!i113 1
+R18
+R19
+Pfpga_audiofx_pkg
+R10
+R11
+R12
+R3
+R2
+Z28 8D:/FPGA-Labor/Versuch08/vhdl/fpga_audiofx_pkg.vhdl
+Z29 FD:/FPGA-Labor/Versuch08/vhdl/fpga_audiofx_pkg.vhdl
+l0
+L17
+VnIAlFF@gFbFchYz<^m9e53
+!s100 oN]ol1cP:A7k^T@;^ac;A0
+R15
+32
+b1
+Z30 !s110 1568835009
+!i10b 1
+Z31 !s108 1568835009.000000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch08/vhdl/fpga_audiofx_pkg.vhdl|
+Z33 !s107 D:/FPGA-Labor/Versuch08/vhdl/fpga_audiofx_pkg.vhdl|
+!i113 1
+R18
+R19
+Bbody
+R9
+R10
+R11
+R12
+l0
+L36
+Vi25>b31:dhQg69=^WC2ZT0
+!s100 c6Rcb_[If_5[_@dWFi9>l2
+R15
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R18
+R19
+Efpga_audiofx_tb
+R3
+R9
+R10
+R11
+R12
+R2
+Z34 8D:/FPGA-Labor/Versuch08/testbench/fpga_audiofx_tb.vhdl
+Z35 FD:/FPGA-Labor/Versuch08/testbench/fpga_audiofx_tb.vhdl
+l0
+L20
+VzB9@8fjSjo=;Ze^bFkIjK0
+!s100 4PK`jJF2C2e3oZA<CjBFB1
+R15
+32
+R30
+!i10b 1
+R31
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch08/testbench/fpga_audiofx_tb.vhdl|
+Z37 !s107 D:/FPGA-Labor/Versuch08/testbench/fpga_audiofx_tb.vhdl|
+!i113 1
+R18
+R19
+Artl
+R9
+R10
+R11
+R12
+DEx4 work 15 fpga_audiofx_tb 0 22 zB9@8fjSjo=;Ze^bFkIjK0
+l107
+L24
+VdCU^bDzHJ4PGK12IhB?Y;0
+!s100 IGegCZY1`PCDXcEf8odSJ2
+R15
+32
+R30
+!i10b 1
+R31
+R36
+R37
+!i113 1
+R18
+R19
+Epll
+R3
+R11
+R12
+R2
+Z38 8D:/FPGA-Labor/Versuch08/vhdl/pll.vhdl
+Z39 FD:/FPGA-Labor/Versuch08/vhdl/pll.vhdl
+l0
+L43
+VU4[nJKo?Z8cdZ6HPAichJ0
+!s100 YKdiUUz:?ebWkUlKCAMBc0
+R15
+32
+R30
+!i10b 1
+R31
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch08/vhdl/pll.vhdl|
+Z41 !s107 D:/FPGA-Labor/Versuch08/vhdl/pll.vhdl|
+!i113 1
+R18
+R19
+Asyn
+R11
+R12
+DEx4 work 3 pll 0 22 U4[nJKo?Z8cdZ6HPAichJ0
+l143
+L55
+VZkOoBW13kD;T^Jm8a<H=m3
+!s100 ;1?b8=a`?PITbCHS3RjId3
+R15
+32
+R30
+!i10b 1
+R31
+R40
+R41
+!i113 1
+R18
+R19
+Esdram_ctrl
+R3
+Z42 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+R10
+R11
+R12
+R2
+Z43 8D:/FPGA-Labor/Versuch08/testbench/sdram_ctrl_func_model.vhdl
+Z44 FD:/FPGA-Labor/Versuch08/testbench/sdram_ctrl_func_model.vhdl
+l0
+L23
+V6]e@^khT6a0RILB7_k?^51
+!s100 6K63KQB9V:I5a?:i`=Zk63
+R15
+32
+R30
+!i10b 1
+R31
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch08/testbench/sdram_ctrl_func_model.vhdl|
+Z46 !s107 D:/FPGA-Labor/Versuch08/testbench/sdram_ctrl_func_model.vhdl|
+!i113 1
+R18
+R19
+Asim
+R42
+R10
+R11
+R12
+DEx4 work 10 sdram_ctrl 0 22 6]e@^khT6a0RILB7_k?^51
+l92
+L48
+VH?7gEH_F4UMmj51>EEhZH0
+!s100 7C2^[1;Zb@`@[KBa@<XPn2
+R15
+32
+R30
+!i10b 1
+R31
+R45
+R46
+!i113 1
+R18
+R19
+Artl
+R10
+R11
+R12
+DEx4 work 10 sdram_ctrl 0 22 1:ljD<BEo_49ocbDFQi891
+l130
+L34
+V=EZWlm=;OH1dG6:@hDkdQ2
+!s100 ;KDnf105o1bcUeB^gHQSz1
+R15
+32
+R0
+!i10b 1
+R5
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch08/vhdl/sdram_ctrl.vhdl|
+!s107 D:/FPGA-Labor/Versuch08/vhdl/sdram_ctrl.vhdl|
+!i113 1
+R18
+R19
+FD:/FPGA-Labor/Versuch08/vhdl/sdram_ctrl.vhdl
+8D:/FPGA-Labor/Versuch08/vhdl/sdram_ctrl.vhdl
+vsdram_ctrl_wrapper
+R0
+!i10b 1
+!s100 nR6zOV:YOoz6CZ30<CdhN0
+IEU5A9WWIA];3>C`9UbHCb2
+R1
+R2
+R3
+Z47 8D:/FPGA-Labor/Versuch08/vhdl/sdram_ctrl_wrapper.v
+Z48 FD:/FPGA-Labor/Versuch08/vhdl/sdram_ctrl_wrapper.v
+L0 158
+R4
+r1
+!s85 0
+31
+R5
+Z49 !s107 D:/FPGA-Labor/Versuch08/vhdl/sdram_ctrl_wrapper.v|
+Z50 !s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA-Labor/Versuch08/vhdl/sdram_ctrl_wrapper.v|
+!i113 1
+R6
+R7
+vsdram_ctrl_wrapper_input_efifo_module
+R0
+!i10b 1
+!s100 bb2Vg9daLPEYLj5WK:[9z0
+I?:<JIcAD>T6Kc3lN]JGA23
+R1
+R2
+R3
+R47
+R48
+L0 21
+R4
+r1
+!s85 0
+31
+R5
+R49
+R50
+!i113 1
+R6
+R7
+Esdram_interface
+R3
+R9
+R10
+R11
+R12
+R2
+Z51 8D:/FPGA-Labor/Versuch08/vhdl/sdram_interface.vhdl
+Z52 FD:/FPGA-Labor/Versuch08/vhdl/sdram_interface.vhdl
+l0
+L28
+VW@AR56]XRBjAC[k?:zP=?1
+!s100 L880Ic8;HkLKFgE[FZOId2
+R15
+32
+R30
+!i10b 1
+R31
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch08/vhdl/sdram_interface.vhdl|
+Z54 !s107 D:/FPGA-Labor/Versuch08/vhdl/sdram_interface.vhdl|
+!i113 1
+R18
+R19
+Artl
+R9
+R10
+R11
+R12
+DEx4 work 15 sdram_interface 0 22 W@AR56]XRBjAC[k?:zP=?1
+l195
+L63
+VQE6jFL0kmg@[ec0]>LVB92
+!s100 1X4C_GnODJnbmfS<[4KB=1
+R15
+32
+R30
+!i10b 1
+R31
+R53
+R54
+!i113 1
+R18
+R19

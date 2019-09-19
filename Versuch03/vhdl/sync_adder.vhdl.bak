@@ -1,0 +1,41 @@
+--------------------------------------------------------------------------------
+-- Project     : versuch3
+-- Module      : sync_adder
+-- Filename    : sync_adder.vhdl
+-- 
+-- Authors     : Li,Zhe
+-- Created     : 2017-10-29
+-- Last Update : 2017-10-30
+--
+--------------------------------------------------------------------------------
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity sync_adder is
+port(
+OpA: in std_ulogic_vector(3 downto 0);
+OpB: in std_ulogic_vector(3 downto 0);
+rst, clk : in std_ulogic;
+output: out std_ulogic_vector(4 downto 0)
+);
+end sync_adder;
+
+
+
+architecture rtl of sync_adder is
+signal temp: std_ulogic_vector(4 downto 0);
+begin
+seq : process(clk, rst)
+begin 
+    if(rst = '1') then
+	output <= "00000";  
+    elsif(rising_edge(clk)) then  
+	output <= temp;
+    end if;
+end process;
+komb : process(OpA, OpB)
+begin
+temp <= std_ulogic_vector(resize(signed(OpA),5) + resize(signed(OpB),5));
+end process;
+end rtl;

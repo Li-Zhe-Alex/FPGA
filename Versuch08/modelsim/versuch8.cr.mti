@@ -1,0 +1,98 @@
+D:/FPGA-Labor/Versuch08/vhdl/sdram_ctrl.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA-Labor/Versuch08/vhdl/sdram_ctrl.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sdram_ctrl
+-- Compiling architecture rtl of sdram_ctrl
+
+} {} {}} D:/FPGA-Labor/Versuch08/testbench/fpga_audiofx_tb.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA-Labor/Versuch08/testbench/fpga_audiofx_tb.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fpga_audiofx_pkg
+-- Compiling entity fpga_audiofx_tb
+-- Compiling architecture rtl of fpga_audiofx_tb
+
+} {} {}} D:/FPGA-Labor/Versuch08/vhdl/altera_reset_controller.v {1 {vlog -work work -stats=none D:/FPGA-Labor/Versuch08/vhdl/altera_reset_controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module altera_reset_controller
+
+Top level modules:
+	altera_reset_controller
+
+} {} {}} D:/FPGA-Labor/Versuch08/vhdl/fifo_sync_dc.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA-Labor/Versuch08/vhdl/fifo_sync_dc.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fifo_sync_dc
+-- Compiling architecture syn of fifo_sync_dc
+
+} {} {}} D:/FPGA-Labor/Versuch08/vhdl/fpga_audiofx_pkg.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA-Labor/Versuch08/vhdl/fpga_audiofx_pkg.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package fpga_audiofx_pkg
+-- Compiling package body fpga_audiofx_pkg
+-- Loading package fpga_audiofx_pkg
+
+} {} {}} D:/FPGA-Labor/Versuch08/vhdl/pll.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA-Labor/Versuch08/vhdl/pll.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity pll
+-- Compiling architecture SYN of pll
+
+} {} {}} D:/FPGA-Labor/Versuch08/vhdl/fpga_audiofx_Aufgabenteil_XV.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA-Labor/Versuch08/vhdl/fpga_audiofx_Aufgabenteil_XV.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fpga_audiofx_pkg
+-- Compiling entity fpga_audiofx
+-- Compiling architecture rtl of fpga_audiofx
+
+} {} {}} D:/FPGA-Labor/Versuch08/testbench/sdram_ctrl_func_model.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA-Labor/Versuch08/testbench/sdram_ctrl_func_model.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity sdram_ctrl
+-- Compiling architecture sim of sdram_ctrl
+
+} {} {}} D:/FPGA-Labor/Versuch08/vhdl/sdram_ctrl_wrapper.v {1 {vlog -work work -stats=none D:/FPGA-Labor/Versuch08/vhdl/sdram_ctrl_wrapper.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sdram_ctrl_wrapper_input_efifo_module
+-- Compiling module sdram_ctrl_wrapper
+
+Top level modules:
+	sdram_ctrl_wrapper
+
+} {} {}} D:/FPGA-Labor/Versuch08/vhdl/sdram_interface.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA-Labor/Versuch08/vhdl/sdram_interface.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fpga_audiofx_pkg
+-- Compiling entity sdram_interface
+-- Compiling architecture rtl of sdram_interface
+
+} {} {}} D:/FPGA-Labor/Versuch08/vhdl/altera_reset_synchronizer.v {1 {vlog -work work -stats=none D:/FPGA-Labor/Versuch08/vhdl/altera_reset_synchronizer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module altera_reset_synchronizer
+
+Top level modules:
+	altera_reset_synchronizer
+
+} {} {}}

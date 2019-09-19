@@ -1,0 +1,245 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/fpga13
+Ecounter_demo
+Z0 w1568646821
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dD:/FPGA-Labor/Versuch01/modelsim
+Z5 8D:/FPGA-Labor/Versuch01/vhdl/counter_demo.vhdl
+Z6 FD:/FPGA-Labor/Versuch01/vhdl/counter_demo.vhdl
+l0
+L15
+VO`GnGac89F9]Mk:=35l7;2
+!s100 ^8oR[hXG5@W@5A7k@1BhS3
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1568710629
+!i10b 1
+Z9 !s108 1568710628.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch01/vhdl/counter_demo.vhdl|
+Z11 !s107 D:/FPGA-Labor/Versuch01/vhdl/counter_demo.vhdl|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+DEx4 work 12 counter_demo 0 22 O`GnGac89F9]Mk:=35l7;2
+l56
+L24
+VlJ9B1UZ]cC16j5Ge]1l8b2
+!s100 Dd1nJmIcjj5Un`T0foCgF1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+venableGen
+R8
+!i10b 1
+!s100 3djnijD`nl8lB2XT4218T2
+IPdaNoPY=2:BKdZZMMZYY70
+VDg1SIo80bB@j0V0VzS_@n1
+R4
+Z14 w1507559954
+8D:/FPGA-Labor/Versuch01/vhdl/enableGen.vqm
+FD:/FPGA-Labor/Versuch01/vhdl/enableGen.vqm
+L0 27
+OV;L;10.5b;63
+r1
+!s85 0
+31
+Z15 !s108 1568710629.000000
+!s107 D:/FPGA-Labor/Versuch01/vhdl/enableGen.vqm|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA-Labor/Versuch01/vhdl/enableGen.vqm|
+!i113 1
+o-work work
+tCvgOpt 0
+nenable@gen
+Eff_jk
+R14
+Z16 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z17 DPx6 altera 11 dffeas_pack 0 22 Dg`GWTC`^Q8GNSMPeo22;3
+Z18 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z19 DPx6 altera 28 altera_primitives_components 0 22 _LNC5n6B?5VN@W;M4Dg@k1
+R1
+R2
+R3
+R4
+Z20 8D:/FPGA-Labor/Versuch01/vhdl/ff_jk.vhdl
+Z21 FD:/FPGA-Labor/Versuch01/vhdl/ff_jk.vhdl
+l0
+L8
+Vfm=:SjoekRMzHhl[96m@i0
+!s100 6J=1OPj^zDzWf3kD;m:M;2
+R7
+32
+R8
+!i10b 1
+R15
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch01/vhdl/ff_jk.vhdl|
+Z23 !s107 D:/FPGA-Labor/Versuch01/vhdl/ff_jk.vhdl|
+!i113 1
+R12
+R13
+Artl
+R16
+R17
+R18
+R19
+R1
+R2
+R3
+DEx4 work 5 ff_jk 0 22 fm=:SjoekRMzHhl[96m@i0
+l30
+L20
+VeM5BW<an421D:nhC17HT>1
+!s100 _glZDzA4;YXYULCj2?bKZ3
+R7
+32
+R8
+!i10b 1
+R15
+R22
+R23
+!i113 1
+R12
+R13
+Esegment_decoder
+R14
+R1
+R2
+R3
+R4
+Z24 8D:/FPGA-Labor/Versuch01/vhdl/segment_decoder.vhdl
+Z25 FD:/FPGA-Labor/Versuch01/vhdl/segment_decoder.vhdl
+l0
+L17
+VXbgTEcB>22GY?eGNeHUkh3
+!s100 LIDM0Un8M0j[?ml5:noGP0
+R7
+32
+R8
+!i10b 1
+R15
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch01/vhdl/segment_decoder.vhdl|
+Z27 !s107 D:/FPGA-Labor/Versuch01/vhdl/segment_decoder.vhdl|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 15 segment_decoder 0 22 XbgTEcB>22GY?eGNeHUkh3
+l38
+L25
+VB@i;?Mb`C?MEk;=VPoM^T2
+!s100 zg`6MDMlXInm3D7K@EL7^1
+R7
+32
+R8
+!i10b 1
+R15
+R26
+R27
+!i113 1
+R12
+R13
+Esync_counter
+Z28 w1568646790
+R1
+R2
+R3
+R4
+Z29 8D:/FPGA-Labor/Versuch01/vhdl/sync_counter.vhdl
+Z30 FD:/FPGA-Labor/Versuch01/vhdl/sync_counter.vhdl
+l0
+L15
+Vd8GNSbB@OW25A?a:Yd>CF1
+!s100 [:MZ]=ZPU^Y?15CHSL<;k1
+R7
+32
+R8
+!i10b 1
+R15
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch01/vhdl/sync_counter.vhdl|
+Z32 !s107 D:/FPGA-Labor/Versuch01/vhdl/sync_counter.vhdl|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 12 sync_counter 0 22 d8GNSbB@OW25A?a:Yd>CF1
+l40
+L24
+Vd=3n`mN]9zCh`f1WSCXl72
+!s100 fzKM@Z;nWk1U0iz<=;_hP2
+R7
+32
+R8
+!i10b 1
+R15
+R31
+R32
+!i113 1
+R12
+R13
+Esync_counter_tb
+Z33 w1568646753
+R1
+R2
+R3
+R4
+Z34 8D:/FPGA-Labor/Versuch01/testbench/sync_counter_tb.vhdl
+Z35 FD:/FPGA-Labor/Versuch01/testbench/sync_counter_tb.vhdl
+l0
+L15
+VNFz8Y3IHX3[kT7cb0B>2h1
+!s100 e9nlG]ZzkA<aYY?ojffJO2
+R7
+32
+Z36 !s110 1568710628
+!i10b 1
+R9
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch01/testbench/sync_counter_tb.vhdl|
+Z38 !s107 D:/FPGA-Labor/Versuch01/testbench/sync_counter_tb.vhdl|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 15 sync_counter_tb 0 22 NFz8Y3IHX3[kT7cb0B>2h1
+l36
+L19
+VThIe776hMF:FfJ6gQ3OVU0
+!s100 N_A^FPfjZ81T^g;U?<<Vn0
+R7
+32
+R36
+!i10b 1
+R9
+R37
+R38
+!i113 1
+R12
+R13

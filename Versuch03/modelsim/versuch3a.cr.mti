@@ -1,0 +1,37 @@
+D:/FPGA-Labor/Versuch03/testbench/async_adder_tb.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA-Labor/Versuch03/testbench/async_adder_tb.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity async_adder_tb
+-- Compiling architecture rtl of async_adder_tb
+
+} {} {}} D:/FPGA-Labor/Versuch03/vhdl/segment_decoder.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA-Labor/Versuch03/vhdl/segment_decoder.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity segment_decoder
+-- Compiling architecture rtl of segment_decoder
+
+} {} {}} D:/FPGA-Labor/Versuch03/vhdl/async_adder_demo.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA-Labor/Versuch03/vhdl/async_adder_demo.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity async_adder_demo
+-- Compiling architecture rtl of async_adder_demo
+
+} {} {}} D:/FPGA-Labor/Versuch03/vhdl/async_adder.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA-Labor/Versuch03/vhdl/async_adder.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity async_adder
+-- Compiling architecture async of async_adder
+
+} {} {}}

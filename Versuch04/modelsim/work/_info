@@ -1,0 +1,433 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/FPGA-Labor/Versuch03/modelsim
+Eacodec_model
+Z0 w1507559954
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dD:/FPGA-Labor/Versuch04/modelsim
+Z5 8D:/FPGA-Labor/Versuch04/testbench/acodec_model.vhdl
+Z6 FD:/FPGA-Labor/Versuch04/testbench/acodec_model.vhdl
+l0
+L25
+Vz?0diknXFmPl7n65PZiC;3
+!s100 ]>eYj[h2`?AU0?0V;i3dl2
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1568731742
+!i10b 1
+Z9 !s108 1568731742.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch04/testbench/acodec_model.vhdl|
+Z11 !s107 D:/FPGA-Labor/Versuch04/testbench/acodec_model.vhdl|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+DEx4 work 12 acodec_model 0 22 z?0diknXFmPl7n65PZiC;3
+l65
+L44
+V:j4_EnVVAT`9:ac_zP4aC2
+!s100 jj=EBVCWkezH?@S[SlWJ42
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eclock_generator
+R0
+Z14 DPx4 work 16 fpga_audiofx_pkg 0 22 nIAlFF@gFbFchYz<^m9e53
+R1
+R2
+R3
+R4
+Z15 8D:/FPGA-Labor/Versuch04/vhdl/clock_generator.vhdl
+Z16 FD:/FPGA-Labor/Versuch04/vhdl/clock_generator.vhdl
+l0
+L20
+VSLiBHJioa:h79O8Cb_e;@1
+!s100 ZkWJQChGQTYX`[Oa>b0]h1
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch04/vhdl/clock_generator.vhdl|
+Z18 !s107 D:/FPGA-Labor/Versuch04/vhdl/clock_generator.vhdl|
+!i113 1
+R12
+R13
+Artl
+R14
+R1
+R2
+R3
+DEx4 work 15 clock_generator 0 22 SLiBHJioa:h79O8Cb_e;@1
+l34
+L32
+VeHYKPJ1HHIeg8DnT:J6511
+!s100 8lZJDQR252cNa@CiA7Led2
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Efifo
+R0
+R14
+R1
+R2
+R3
+R4
+Z19 8D:/FPGA-Labor/Versuch04/vhdl/fifo.vhdl
+Z20 FD:/FPGA-Labor/Versuch04/vhdl/fifo.vhdl
+l0
+L20
+V8_BRAFgK`;;D68j5lB8WX0
+!s100 oeJZeEEH>X;Ob`[iH:6oa3
+R7
+32
+R8
+!i10b 1
+R9
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch04/vhdl/fifo.vhdl|
+Z22 !s107 D:/FPGA-Labor/Versuch04/vhdl/fifo.vhdl|
+!i113 1
+R12
+R13
+Artl
+R14
+R1
+R2
+R3
+DEx4 work 4 fifo 0 22 8_BRAFgK`;;D68j5lB8WX0
+l55
+L43
+V1FK1DAoFUdU6nkf;b>g[<3
+!s100 ?o<om:nHCAJVMYWbOcVko2
+R7
+32
+R8
+!i10b 1
+R9
+R21
+R22
+!i113 1
+R12
+R13
+Efpga_audiofx
+Z23 w1563200657
+R14
+R1
+R2
+R3
+R4
+Z24 8D:/FPGA-Labor/Versuch04/vhdl/fpga_audiofx.vhdl
+Z25 FD:/FPGA-Labor/Versuch04/vhdl/fpga_audiofx.vhdl
+l0
+L20
+Vh<cc9^BlkeR9WaX^J<Yek0
+!s100 914anRXbFLnEi91zb69G`1
+R7
+32
+R8
+!i10b 1
+R9
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch04/vhdl/fpga_audiofx.vhdl|
+Z27 !s107 D:/FPGA-Labor/Versuch04/vhdl/fpga_audiofx.vhdl|
+!i113 1
+R12
+R13
+Artl
+R14
+R1
+R2
+R3
+DEx4 work 12 fpga_audiofx 0 22 h<cc9^BlkeR9WaX^J<Yek0
+l166
+L41
+V7e:HA0kDJKdF]kMR>TBAi0
+!s100 :g=`BzO4agk]PlZ36FmXE2
+R7
+32
+R8
+!i10b 1
+R9
+R26
+R27
+!i113 1
+R12
+R13
+Pfpga_audiofx_pkg
+R1
+R2
+R3
+R0
+R4
+Z28 8D:/FPGA-Labor/Versuch04/vhdl/fpga_audiofx_pkg.vhdl
+Z29 FD:/FPGA-Labor/Versuch04/vhdl/fpga_audiofx_pkg.vhdl
+l0
+L17
+VnIAlFF@gFbFchYz<^m9e53
+!s100 oN]ol1cP:A7k^T@;^ac;A0
+R7
+32
+b1
+R8
+!i10b 1
+R9
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch04/vhdl/fpga_audiofx_pkg.vhdl|
+Z31 !s107 D:/FPGA-Labor/Versuch04/vhdl/fpga_audiofx_pkg.vhdl|
+!i113 1
+R12
+R13
+Bbody
+R14
+R1
+R2
+R3
+l0
+L36
+Vi25>b31:dhQg69=^WC2ZT0
+!s100 c6Rcb_[If_5[_@dWFi9>l2
+R7
+32
+R8
+!i10b 1
+R9
+R30
+R31
+!i113 1
+R12
+R13
+Efpga_audiofx_tb
+R0
+R14
+R1
+R2
+R3
+R4
+Z32 8D:/FPGA-Labor/Versuch04/testbench/fpga_audiofx_tb.vhdl
+Z33 FD:/FPGA-Labor/Versuch04/testbench/fpga_audiofx_tb.vhdl
+l0
+L20
+VzB9@8fjSjo=;Ze^bFkIjK0
+!s100 4PK`jJF2C2e3oZA<CjBFB1
+R7
+32
+R8
+!i10b 1
+R9
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch04/testbench/fpga_audiofx_tb.vhdl|
+Z35 !s107 D:/FPGA-Labor/Versuch04/testbench/fpga_audiofx_tb.vhdl|
+!i113 1
+R12
+R13
+Artl
+R14
+R1
+R2
+R3
+Z36 DEx4 work 15 fpga_audiofx_tb 0 22 zB9@8fjSjo=;Ze^bFkIjK0
+l74
+L24
+Z37 V0A9fAA>>Sb1`HMD9fOQ=20
+Z38 !s100 ^>XWc2MYk6GHQ[_P]iWzQ2
+R7
+32
+R8
+!i10b 1
+R9
+R34
+R35
+!i113 1
+R12
+R13
+Ei2c_master
+R0
+R14
+R1
+R2
+R3
+R4
+Z39 8D:/FPGA-Labor/Versuch04/vhdl/i2c_master.vhdl
+Z40 FD:/FPGA-Labor/Versuch04/vhdl/i2c_master.vhdl
+l0
+L28
+V`khK9J`LS<_[?DMkS5=3:1
+!s100 ETVUAB9ERc9FQ`b6dPT9d0
+R7
+32
+R8
+!i10b 1
+R9
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch04/vhdl/i2c_master.vhdl|
+Z42 !s107 D:/FPGA-Labor/Versuch04/vhdl/i2c_master.vhdl|
+!i113 1
+R12
+R13
+Artl
+R14
+R1
+R2
+R3
+DEx4 work 10 i2c_master 0 22 `khK9J`LS<_[?DMkS5=3:1
+l133
+L56
+V@fhbbARBKj1_2Z2cQl]VN2
+!s100 J9Z;T_GWVV4:nSH8_kO]:1
+R7
+32
+R8
+!i10b 1
+R9
+R41
+R42
+!i113 1
+R12
+R13
+Ei2s_slave
+R0
+R14
+R1
+R2
+R3
+R4
+Z43 8D:/FPGA-Labor/Versuch04/vhdl/i2s_slave.vhdl
+Z44 FD:/FPGA-Labor/Versuch04/vhdl/i2s_slave.vhdl
+l0
+L21
+V1kY<`]2kOnQhid<0j1=Y_2
+!s100 1<10KZ;K8ASl]Rk7ig2zB1
+R7
+32
+R8
+!i10b 1
+R9
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch04/vhdl/i2s_slave.vhdl|
+Z46 !s107 D:/FPGA-Labor/Versuch04/vhdl/i2s_slave.vhdl|
+!i113 1
+R12
+R13
+Artl
+R14
+R1
+R2
+R3
+DEx4 work 9 i2s_slave 0 22 1kY<`]2kOnQhid<0j1=Y_2
+l113
+L43
+VeY3[a]6o=km7TjIYZzfO02
+!s100 =_hmW=NOfYMUhIV6OjB?H2
+R7
+32
+R8
+!i10b 1
+R9
+R45
+R46
+!i113 1
+R12
+R13
+Epll
+R0
+R2
+R3
+R4
+Z47 8D:/FPGA-Labor/Versuch04/vhdl/pll.vhdl
+Z48 FD:/FPGA-Labor/Versuch04/vhdl/pll.vhdl
+l0
+L43
+VU4[nJKo?Z8cdZ6HPAichJ0
+!s100 YKdiUUz:?ebWkUlKCAMBc0
+R7
+32
+R8
+!i10b 1
+R9
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch04/vhdl/pll.vhdl|
+Z50 !s107 D:/FPGA-Labor/Versuch04/vhdl/pll.vhdl|
+!i113 1
+R12
+R13
+Asyn
+R2
+R3
+DEx4 work 3 pll 0 22 U4[nJKo?Z8cdZ6HPAichJ0
+l143
+L55
+VZkOoBW13kD;T^Jm8a<H=m3
+!s100 ;1?b8=a`?PITbCHS3RjId3
+R7
+32
+R8
+!i10b 1
+R9
+R49
+R50
+!i113 1
+R12
+R13
+Ewm8731_configurator
+R0
+R14
+R1
+R2
+R3
+R4
+Z51 8D:/FPGA-Labor/Versuch04/vhdl/wm8731_configurator.vhdl
+Z52 FD:/FPGA-Labor/Versuch04/vhdl/wm8731_configurator.vhdl
+l0
+L23
+VgjW;6FA0YKezX_ACoN5^M2
+!s100 DCl4UnDU^FQbNR>4Y4he<2
+R7
+32
+R8
+!i10b 1
+R9
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA-Labor/Versuch04/vhdl/wm8731_configurator.vhdl|
+Z54 !s107 D:/FPGA-Labor/Versuch04/vhdl/wm8731_configurator.vhdl|
+!i113 1
+R12
+R13
+Artl
+R14
+R1
+R2
+R3
+DEx4 work 19 wm8731_configurator 0 22 gjW;6FA0YKezX_ACoN5^M2
+l90
+L49
+V^:VA?O1>FWP;Uejh0LcNQ2
+!s100 h=<jH_DHSAlPnea`Zbi_50
+R7
+32
+R8
+!i10b 1
+R9
+R53
+R54
+!i113 1
+R12
+R13

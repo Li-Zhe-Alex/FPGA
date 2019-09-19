@@ -1,0 +1,28 @@
+D:/FPGA-Labor/Versuch02/testbench/sync_counter_tb.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA-Labor/Versuch02/testbench/sync_counter_tb.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sync_counter_tb
+-- Compiling architecture rtl of sync_counter_tb
+
+} {} {}} D:/FPGA-Labor/Versuch02/vhdl/counter_demo.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA-Labor/Versuch02/vhdl/counter_demo.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity counter_demo
+-- Compiling architecture rtl of counter_demo
+
+} {} {}} D:/FPGA-Labor/Versuch02/vhdl/segment_decoder.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA-Labor/Versuch02/vhdl/segment_decoder.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity segment_decoder
+-- Compiling architecture rtl of segment_decoder
+
+} {} {}}
